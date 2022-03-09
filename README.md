@@ -8,4 +8,4 @@ Apreciem! :)
 
 
 Referências
-  - Introdução a ciência da computação de Harvard (cs50): [title](https://www.youtube.com/c/cs50/featured)
+  - Introdução a ciência da computação de Harvard (cs50): https://www.youtube.com/c/cs50/featured
