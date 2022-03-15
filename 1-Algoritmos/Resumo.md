@@ -61,3 +61,25 @@ Memória Ram pode ser visualizada como uma grande tabela com duas colunas. Ender
 
 Onde cada bloquinho pode armazenar um bit. Mais a frente falaremos sobre estruturas de dados e como se manipulam esses endereços, por que é importante entender bem a memória entre outros assuntos.
 
+## Capitulo 2 - Algoritmos
+### 2.1 Conceito de algoritmo
+Um algoritmo pode ser definido como uma sequência finita de passos a fim de resolver um problema.
+
+### O exemplo clássico, a receita de bolo:
+**Problema: Preparar um bolo**<br>
+**Algoritmo de solução:**
+```
+- Pegar os ingredientes
+- Colocar os ingredientes na mesa
+- Pegue o liquidificador e a forma
+- Coloque o forno para preaquecer na temperatura indicada
+- Bata os ingredientes no liquidificador
+- Coloque a massa formada na forma
+- Leve a forma ao forno
+- Espere o tempo indicado
+- Desligue o forno
+- Com uma luva, retire a forma com o bolo pronto
+
+```
+
+

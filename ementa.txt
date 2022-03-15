@@ -11,6 +11,7 @@
 # Estruturas de dados
     - C
     - Tipos primitivos
+    - Endereços de memória
     - Arrays
     - Strings
     - Memória
