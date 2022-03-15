@@ -44,4 +44,20 @@ função processar(memória){
 }
 ```
 
-### 1.2.2 Memória Ram
+### 1.2.2 Memória Ram[^3]
+[^3]: O tópico era mais generalizado para memória no geral. Mas memória Rom e memória secundária não são de grande importância no momento.
+
+Memória Ram pode ser visualizada como uma grande tabela com duas colunas. Endereço e dado:
+
+| Endereço | Dado |
+|----------|------|
+|0x00000001|     0|
+|0x00000002|     1|
+|0x00000003|     1|
+|0x00000004|     1|
+|0x00000005|     0|
+|0x00000006|     0|
+|...|     ...|
+
+Onde cada bloquinho pode armazenar um bit. Mais a frente falaremos sobre estruturas de dados e como se manipulam esses endereços, por que é importante entender bem a memória entre outros assuntos.
+
