@@ -79,7 +79,58 @@ Um algoritmo pode ser definido como uma sequência finita de passos a fim de res
 - Espere o tempo indicado
 - Desligue o forno
 - Com uma luva, retire a forma com o bolo pronto
-
 ```
 
+***Notam-se duas caracteristicas importantes dos algoritmos nesse exemplo.***
+1. Existe uma sequência lógica na ordem das ações. <br>
+    - Não se coloca a massa na forma sem antes pegar a forma
+    - Não se coloca a forma no forno sem a massa
+2. Algoritmos podem ser mais ou menos eficientes dependendo da lógica aplicada
+    - Se você não ligar o forno enquanto prepara a massa, terá que esperar ele pré aquecer antes de levar a forma ao forno, o que acarretaria na perda de tempo de execução.
 
+Vejamos um outro exemplo de algoritmo. <br>
+**Problema: Pegar Onibus**
+```
+Ir até a parada
+Enquanto (Onibus não chega) faça {
+    esperar onibus
+}
+Subir no onibus
+Se (Tem cartão de onibus) faça {
+    Pegar cartão do onibus
+    Passar o cartão na máquina
+} 
+Senão faça {
+    Pegar dinheiro
+    Pagar Passagem
+    troco <-- dinheiro - passagem
+    Guardar troco 
+}
+Passar pela Catraca
+Enquanto (Não chegar no ponto) faça{
+    Se (Existe lugar lazio) faça{
+        Sentar no lugar vazio
+        Esperar chegar no ponto
+    }
+    Senão {
+        Esperar em pé até alguém sair ou até chegar no ponto
+    }
+}
+Sair do onibus
+```
+***Notam-se mais algumas caracteristicas importantes dos algoritmos nesse exemplo.***
+1. Um algoritmo pode realizar decisões
+    - Se você não tem cartão de onibus, não podes passar na máquininha, então essa parte do código pode ser ignorada. Uma vez que você não tem esse cartão, terá que pagar com dinheiro.
+    - Se não tem lugar no onibus, não tem como sentar, então vai ter que esperar alguém levantar.
+2. Você pode repetir uma mesma tarefa de novo e de novo até que uma condição seja satisfeita. 
+    - Enquanto o onibus não chega, você espera por ele
+3. Você pode relacionar essas duas coisas a partir de uma lógica.
+    - Enquanto você não chega no ponto, se tiver lugar disponível, sente e espere chegar no ponto. Se não tiver, fique em pé e espere alguém sair liberando um lugar, ou até chegar no ponto.
+    - NOTA: O inverso, mesmo que não representado, também é possível. Podes realizar um loop, a partir de uma condição satisfeita ou não satisfeita.
+4. É possível realizar operações matemáticas no código
+    - Troco <- dinheiro - passagem
+    - Nota: É possível realizar qualquer tipo de operação matemática no computador. Afinal, como dito antes, ele é uma calculadora com esteróides.
+5. É possível salvar informações
+    - A variavel troco recebeu o resultado da operação dinheiro - passagem. 
+6. Nota-se uma grande quantidade de "{}" no código. Essa é uma notação comum em linguagens de programaçao para blocos de código. Que é basicamente uma forma explicita de separar seu código em partes. Nota-se que elas são usadas nas estruturas de repetição de ações e nas estruturas de condições. Ou seja, o que está dentro das chaves, está dentro da estrutura. 
+7. Nota-se que o código que está dentro das chaves também possui um espaçamento a cada quebra de linha. Esse espaçamento é chamado identação, da mesma forma que as chaves, é um meio de organizar seu código, porém, as chaves são uma forma de organizar para que o computador consiga interpretar o código, enquanto que a identação normalmente é feita para o desenvolvedor conseguir ler o código melhor.
