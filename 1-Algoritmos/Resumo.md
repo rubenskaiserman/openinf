@@ -134,7 +134,9 @@ Sair do onibus
     - A variavel troco recebeu o resultado da operação dinheiro - passagem. 
 6. Nota-se uma grande quantidade de "{}" no código. Essa é uma notação comum em linguagens de programaçao para blocos de código. Que é basicamente uma forma explicita de separar seu código em partes. Nota-se que elas são usadas nas estruturas de repetição de ações e nas estruturas de condições. Ou seja, o que está dentro das chaves, está dentro da estrutura. 
 7. Nota-se que o código que está dentro das chaves também possui um espaçamento a cada quebra de linha. Esse espaçamento é chamado identação, da mesma forma que as chaves, é um meio de organizar seu código, porém, as chaves são uma forma de organizar para que o computador consiga interpreta-lo, enquanto que a identação normalmente é feita para o desenvolvedor conseguir le-lo mais eficientemente.
-
+8. Existe também no exemplo uma operação de comparação relacional. um "Ou".
+    - Esperar em pé até alguém sair **ou** até chegar no ponto
+    - Chamado de operador comparativo ou binário, ele compara duas afirmativas e se pelo menos uma delas for verdadeira, ele retorna uma resposta positiva. 
 
 
 
@@ -143,4 +145,16 @@ Sair do onibus
 No primeiro capitulo, é falado sobre como computadores são sistemas que recebem uma entrada de dados, realizam um processamento desses dados, e depois entregam uma saída dos dados processados. Porém, podem existir algoritmos que não recebem entrada mas entregam uma saída, podem existir algoritmos que recebem a entradamas não apresentam saída, e podem existir algoritmos que não recebem entrada nem apresentam uma saída. <br>
 Por exemplo um algoritmo que realiza a soma 1 + 2. Ele não mostra que o resultado é 3, e esses números não foram inseridos por ninguém (Além do desenvolvedor que construiu o algoritmo). Portanto não existe entrada nem saída. Assim como Você pode inserir os valores da soma mas não receber saída com o resultado. Assim, como você pode receber o resultado da soma sem ter colocado os números.[^4]
 [^4]: No texto do pdf é falado que é necessário no minimo as três etapas para um algoritmo. O que é uma interpretação válida se dissermos que os códigos escritos pelo desenvolvedor são um input, e todo e qualquer resultado, mesmo que não mostrado explicitamente, é um output. Mas no resumo, foi decidido declarar inputs e outputs explicitos como a entrada e a saída.
+
+
+**Exemplo de algoritmo que recebe entrada, realiza processamento e entrega uma saída de dados**<br>
+algoritmo para o calculo da área de um circulo recebendo seu raio. (A = pi * r²)
+
+```
+pi <- 3.14159...
+r <- input do usuário
+A <- pi * r * r
+imprima(A)
+```
+
 
