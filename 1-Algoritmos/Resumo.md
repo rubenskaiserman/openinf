@@ -157,4 +157,14 @@ A <- pi * r * r
 imprima(A)
 ```
 
+**Notas Sobre o algoritmo exemplificado**
+1. O raio é definido a partir da inserção do valor pelo usuário, se caracterizando assim como input(Entrada).
+2. imprima() é um recurso que mostra ao usuário o resultado calculado
+3. Esse é um algoritmo muito mais próximo do que veremos a frente, pois é composto por simples operações matemáticas e de entrada ou saída. Estando assim muito mais próximo do que um computador pode realizar naturalmente.Que na maior parte do tempo
+
+### 2.5 Linguagens[^5]
+[^5]: Falaremos sobre representações de algoritmos no módulo sobre Projeto de sistemas
+
+### 2.5.2 Linguagem de máquina Assembler
+
 
