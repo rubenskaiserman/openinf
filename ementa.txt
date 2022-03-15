@@ -1,6 +1,5 @@
-# Como funciona um computador?
-    - Apostila USP
 # Algoritmos 
+    - Como funciona um computador
     - C
     - O que são algoritmos
     - Variaveis
