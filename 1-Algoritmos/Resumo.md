@@ -14,3 +14,8 @@ Leia-se, uma calculadora com esteróides. Um computador nada mais é do que uma 
 A partir daqui já podemos chegar a uma definição resumida do que é o computador.
 ![Entrada->Processamento->Saída imagem de cs50-Harvard](imagens/input_output.png)[^1]
 [^1]: Imagem de cs50-Harvard-Course
+
+A imagem acima demonstra bem a ideia, do lado esquerdo nós temos um input, leia-se entrada de dados, do lado direito nós temos o output, leia-se saída de dados, e no meio dessas duas coisas temos um quadrado mágico conhecido como computador.
+
+### 1.2 A arquitetura básica[^2]
+[^2]: 1.1 A história dos computadores não é um tópico muito relevante para a compreensão dos algoritmos então, pulamos direto para a arquitetura dos computadores digitais eletrônicos.
