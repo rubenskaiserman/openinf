@@ -19,3 +19,29 @@ A imagem acima demonstra bem a ideia, do lado esquerdo nós temos um input, leia
 
 ### 1.2 A arquitetura básica[^2]
 [^2]: 1.1 A história dos computadores não é um tópico muito relevante para a compreensão dos algoritmos então, pulamos direto para a arquitetura dos computadores digitais eletrônicos.
+
+O computador é representado por duas partes principais. Os dispositivos de entrada e saída(teclado, mouse, monitor, speakers e etc), e as partes internas que normalmente são resumidas ao processador e a memória.
+
+Uma versão mais complexa e específica de uma arquitetura pode conter placa mãe, memória ram, memória rom, armazenamento interno, placa de vídeo e etc. Porém, para o funcionamento de um computador, é necessário um processador para fazer as contas, leia-se processar os dados, e os próprios dados, que são dados a partir da memória. A placa mãe faz a união dessas partes, mas são o processador e a memória que realizam o trabalho.
+
+### 1.2.1 Processador
+**Cada Operação do processador é representada pela seguinte lista de procedimentos:**
+- Busca de Instruções na memória
+- Interpretação de uma instrução
+- Execução da instrução intepretada
+- gravação de eventuais resultados do processamento
+- Reinicio do processo caso necessário
+
+Em uma estrutura de algoritmo simples isso poderia ser representado como:
+
+```
+função processar(memória){
+    enquanto tiver operações pra realizar na memória faça o seguinte{
+        Interpreta o que a memória tá te mandando fazer
+        Agora faz o que ela mandou
+        Agora responde o que ela pediu
+    }
+}
+```
+
+### 1.2.2 Memória Ram
