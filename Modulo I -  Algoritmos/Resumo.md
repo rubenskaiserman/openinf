@@ -120,7 +120,7 @@ Enquanto (Não chegar no ponto) faça{
 Sair do onibus
 ```
 [^4]
-[^4]: Problema retirado de "Introdução a Algoritmos e Programação"(Editado)
+[^4]: Problema retirado de "Introdução a Algoritmos e Programação"(Editado) <br>
 ***Notam-se mais algumas caracteristicas importantes dos algoritmos nesse exemplo.***
 1. Um algoritmo pode realizar decisões
     - Se você não tem cartão de onibus, não podes passar na máquininha, então essa parte do código pode ser ignorada. Uma vez que você não tem esse cartão, terá que pagar com dinheiro.
