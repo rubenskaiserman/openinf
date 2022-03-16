@@ -144,9 +144,9 @@ Sair do onibus
 
 
 
-### 2.2 partes de um algoritmo
+### Partes de um algoritmo
 **De volta ao funcionamento do computador.**<br> 
-No primeiro capitulo, é falado sobre como computadores são sistemas que recebem uma entrada de dados, realizam um processamento desses dados, e depois entregam uma saída dos dados processados. Porém, podem existir algoritmos que não recebem entrada mas entregam uma saída, podem existir algoritmos que recebem a entradamas não apresentam saída, e podem existir algoritmos que não recebem entrada nem apresentam uma saída. <br>
+Foi falado sobre como computadores são sistemas que recebem uma entrada de dados, realizam um processamento desses dados, e depois entregam uma saída dos dados processados. Porém, podem existir algoritmos que não recebem entrada mas entregam uma saída, podem existir algoritmos que recebem a entradamas não apresentam saída, e podem existir algoritmos que não recebem entrada nem apresentam uma saída. <br>
 Por exemplo um algoritmo que realiza a soma 1 + 2. Ele não mostra que o resultado é 3, e esses números não foram inseridos por ninguém (Além do desenvolvedor que construiu o algoritmo). Portanto não existe entrada nem saída. Assim como Você pode inserir os valores da soma mas não receber saída com o resultado. Assim, como você pode receber o resultado da soma sem ter colocado os números.
 
 **Exemplo de algoritmo que recebe entrada, realiza processamento e entrega uma saída de dados**<br>
@@ -162,12 +162,13 @@ imprima(A)
 **Notas Sobre o algoritmo exemplificado**
 1. O raio é definido a partir da inserção do valor pelo usuário, se caracterizando assim como input(Entrada).
 2. imprima() é um recurso que mostra ao usuário o resultado calculado
-3. Esse é um algoritmo muito mais próximo do que veremos a frente, pois é composto por simples operações matemáticas e de entrada ou saída. Estando assim muito mais próximo do que um computador pode realizar naturalmente.Que na maior parte do tempo
+3. Esse é um algoritmo muito mais próximo do que veremos a frente, pois é composto por simples operações de entrada e/ou saída. Estando assim muito mais próximo do que um computador pode realizar naturalmente.
 
-### 2.5 Linguagens[^5]
-[^5]: Falaremos sobre representações de algoritmos no módulo sobre Projeto de sistemas
-
-### 2.5.2 Linguagem de máquina Assembler
+### Código binário
+### Linguagem de Máquina Assembler
+### Linguagens de programação modernas
+### Linguagem C
+// Nota: Fazer o cálculo de área do circulo em C
 
 
 
