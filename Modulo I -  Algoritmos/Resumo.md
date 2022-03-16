@@ -118,7 +118,8 @@ Enquanto (Não chegar no ponto) faça{
     }
 }
 Sair do onibus
-```[^4]
+```
+[^4]
 [^4]: Problema retirado de "Introdução a Algoritmos e Programação"(Editado)
 ***Notam-se mais algumas caracteristicas importantes dos algoritmos nesse exemplo.***
 1. Um algoritmo pode realizar decisões
