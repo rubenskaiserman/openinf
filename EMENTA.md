@@ -1,6 +1,5 @@
 # Ementa
-> 
-> 
+
 ## Algoritmos 
 > -  Como funciona um computador
 > -  O que são algoritmos
