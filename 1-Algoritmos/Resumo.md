@@ -168,3 +168,51 @@ imprima(A)
 ### 2.5.2 Linguagem de máquina Assembler
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Fontes
+- "INTRODUÇÃO A ALGORITMOS E PROGRAMAÇÃO" de FABRICIO FERRARI e CRISTIAN CECHINEL
+- cs50 - Harvard's Introduction to Computer Science Course
