@@ -28,20 +28,13 @@
 > -  Browser (O navegador)
 > -  HTML
 > -  Servidores
-## Linguagens e Técnicas de Programação I (Programação Orientada a Objetos)
+## Programação Orientada a Objetos
 > -  C++ vs C
 > -  Atributos e Métodos
 > -  Herança e Polimorfismo
 > -  Bibliotecas, framworks e reuso de código
 > -  Introdução a desenvolvimento de jogos com C++?
 > -  Adicionar mais coisa depois
-## Desenvolvimento Web I 
-> -  HTML
-> -  CSS
-> -  JavaScript
-> -  jQuery e História do JavaScript/ECMAScript
-> -  TypeScript
-> -  Bootstrap e Bibliotecas Web
 ## Banco de dados I
 > -  Por que usar um banco de dados?
 > -  A linguagem SQL
@@ -50,27 +43,30 @@
 > -  Inserção, Modificação, Remoção e Seleção de dados (CRUD)
 > -  Queries e Subqueries
 > -  Depois eu organizo melhor a parte de banco de dados
-## Desenvolvimento Web II
-> -  Php e Backend
-> -  Python e Flask para Backend
-> -  Frameworks web com Django e React
+## Desenvolvimento Web
+> -  HTML
+> -  CSS
+> -  JavaScript
+> -  jQuery e História do JavaScript/ECMAScript
+> -  TypeScript
+> -  Bootstrap e Bibliotecas Web
+> -  Php e Backend Web 
+## Linguagens e Técnicas de Programação
+> -  C++ vs Java; Orientação a Objetos
+> -  JavaScript vs Java; Tipagem Dinâmica vs Estática
+> -  Java vs Php; Objetivos de Linguagens
+> -  JavaScript vs Python; Paradigmas de Programação
+> -  Python vs C++; Linguagem Interpretada vs Compilada
+## Desenvolvimento Web Avançado
+> -  Python vs Php (Backend Web)
 > -  Conexão com banco de dados e segurança da informação
-> -  Servidores e etc
-## Linguagens e Técnicas de Programação II (Comparação de Linguagens)
-> -  C++ vs Java (POO e Manipulação de memória)
-> -  Java vs JavaScript (Não têm nada a ver um com o outro)
-> -  JavaScript vs Python (Programação funcional, sintaxe e Orientação a Objetos vs Orientação a Prototype)
-> -  Python vs C++ (Interpretada vs Compilada)
-> -  Python vs Php vs Java (Backend Web)
-## Projeto de sistemas
-> -  Engenharia de software
-> -  Ferramentas disponíveis
+> -  Frameworks web com Django e React
+> -  Colocar mais coisas depois
+## Projeto e desenvolvimento de sistemas
+> -  Levantamento de Requisitos
+> -  Planejamento
+> -  Modelagem e planejamento
 > -  Diagramas UML
+> -  Desenvolvimento Agile e Clean Code
 > -  Testes automatizados
-> -  Debugging
-## Desenvolvimento Mobile e Interfaces gráficas
-> -  IOS vs Android
-> -  Desenvolvimento Android com Java
-> -  Desenvolvimento Android com Kotlin
-> -  Desenvolvimento de apps com React Native
-> -  Desenvolvimento de apps com Flutter
+> -  Debugging e documentação
