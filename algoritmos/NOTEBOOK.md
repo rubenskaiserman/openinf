@@ -229,7 +229,28 @@ Como a origem dos computadores e linguagens de programação se deu principalmen
 
 ## Linguagem C
 
-Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma contextualizada e exemplificada. Assim dando uma visão muito melhor de como funciona a construção de soluções computacionais na vida real. 
+Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma melhor contextualizada. Assim dando uma visão mais clara de como funciona a construção de soluções computacionais na vida real. <br>
+A seguir, antes do primeiro exemplo de código, serão apresentadas algumas ferramentas que facilitam o desenvolvimento, algumas tecnologias que permitem o software funcionar e algumas noções iniciais sobre a linguagem C e linguagens em geral. 
+
+### IDEs e Editores de Texto
+Uma IDE(Ambiente de desenvolvimento integrado)[^7] ou editores de texto especializados, tem o objetivo de facilitar e acelerar o desenvolvimento de software, apresentando diversas ferramentas e integrações, que manualmente trariam uma grande perda de tempo. Uma das caracteristicas mais uteis de um editor de texto é a identificação de problemas na sintaxe durante o desenvolvimento. Como por exemplo, esquecer o ponto e virgula no final do comando.
+Sincronização com ferramentas de versionamento de código como Git e o próprio Github. Entre diversas outras ferramentas. <br>
+Existe uma grande variedade de editores de texto no mercado, tanto gratuitos quanto pagos. Segundo o StackOverflow Survey de 2021, o Visual Studio Code é o mais popular, e ele é justamente o recomendado para o estudo desse Notebook, assim como de todos os próximos. <br>
+Recomenda-se o uso do VSCode porque foi o utilizado no desenvolvimento de todo esse repositório, e também pois é uma ferramenta extremamente intuitiva e por ser muito utilizada terá uma vasta gama de conteúdo na internet para eventuais problemas que podem ser encontrados.
+[^7]: Do inglês Integrated Development Enviroment
+
+### Compiladores
+Como dito anteriormente, computadores não compreendem nada exceto código de máquina, leia-se código binário. Portanto, o programa que se escreve em uma linguagem de programação, precisa, antes de rodar, ser traduzido para código de máquina, e generalizando o processo, a tradução do código é chamada de compilação, realizada por um compilador. <br>
+Ou seja, contrário aos programas que transformam dados em binário, em informação interpretável por humanos, um compilador transforma o código compreensível por humanos, em linguagem de máquina, leia-se bits. Logo, conclui-se que para escrever código em uma linguagem de programação, no caso desse notebook, C, é necessário primeiro ter o compilador da linguagem instalado na máquina.[^8] <br>
+Nesse notebook, recomendamos que seja utilizado um sistema linux, seja o sistema operacional em si, ou um Windows Subsystem for Linux, que pode ser feito o download na microsoft store. No VSCode, existem integrações com WSL que uma vez instaladas, permitem a programação sem problemas. A recomendação do sistema linux é devida a grande quantidade de ferramentas já inbutidas no sistema, inclusive um compilador da linguagem C, até porque o sistema operacional linux foi construido em C. As outras razões para o uso de linux serão abordadas a frente, mas caso seja o desejo do leitor, é possível a instalação de um compilador de C em outros sistemas operacionais. Existem diversos tutoriais na internet explicando o processo.
+[^8]: Existem também ferramentas online que compilam o código em servidores, mas o compilador têm que ser rodado em algum lugar, seja na máquina local ou em um servidor externo.
+
+### Terminal
+
+
+
+
+### Linux
 
 
 ### Funções
@@ -239,7 +260,8 @@ Até aqui, esse notebook se focou na construção teórica das bases computacion
 ### Bibliotecas
 ### Strings e caracteres especiais
 ### Sintaxe da linguagem C
-### 
+
+
 
 **Primeiro código em C**
 ```
