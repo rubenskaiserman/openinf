@@ -246,12 +246,13 @@ Nesse notebook, recomendamos que seja utilizado um sistema linux, seja o sistema
 [^8]: Existem também ferramentas online que compilam o código em servidores, mas o compilador têm que ser rodado em algum lugar, seja na máquina local ou em um servidor externo.
 
 ### Terminal
-
-
-
+Hoje, computadores têm interfaces gráficas que permitem a interação mais intuitiva com o sistema operacional, porém, no inicio da popularização dos computadores pessoais, não existia potência de processamento para essas interfaces, e toda a interação era realizada a partir de comandos de texto em um terminal. <br>
+Ainda hoje, é possível interagir com o terminal do computador e a partir dele fazer tudo que é feito com interfaces gráficas, e as vezes de maneira mais rápida. O windows têm o powershell, o Linux Ubuntu têm o bash, e existem muitas outras opções que podem ser instaladas. <br>
+O terminal é util principalmente para desenvolvedores, pois podem a partir de comandos simples, realizar ações mais eficiêntes, e também testar seu código com mensagens internas. Mas principalmente nos estágios iniciais de programação, o terminal é o principal ponto de interação do desenvolvedor com seu código, seja para testar uma parte do código, inserir dados, ou até rodar um sistema. Terminais são excenciais para o aprendizado. E nesse repositório a maioria dos códigos serão compilados e rodados em um terminal bash, então para seguir os passos e testar por si mesmo, é recomendado o uso do mesmo. 
 
 ### Linux
-
+Linux é um sistema operacional assim como Windows e MacOS, porém, no mundo da programação, diferente do mundo dos computadores pessoais, linux é um sistema muito mais utilizado, seja na web para hospedar sites em servidores, para rodar sistemas cloud, em celulares com o android que é baseado em um sistema linux, entre diversas outras aplicações. Por isso mesmo que não no desenvolvimento, programadores e programadoras, acabarão em algum momento utilizando linux, provavelmente multiplas vezes. Portanto é lógico que se acostume logo de inicio com sistema, e com opções como o ubuntu que possuem uma interface tão intuitiva quanto um Windows ou MacOS. <br>
+Além de ser muito usado para sistemas completos, linux é também imbuido de diversas ferramentas que facilitam e aceleram o desenvolvimento de software, como por exemplo uma sintaxe mais simples no terminal, e gerenciadores de pacotes, leia-se instaladores de programas muito mais rápidos e simples. 
 
 ### Funções
 ### Váriaveis
