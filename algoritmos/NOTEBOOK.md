@@ -182,7 +182,7 @@ imprima(A)
 
 **Notas Sobre o algoritmo exemplificado**
 1. O raio é definido a partir da inserção do valor pelo usuário, se caracterizando assim como input(Entrada).
-2. imprima() é um recurso que mostra ao usuário o resultado calculado
+2. imprima() é um recurso que mostra ao usuário o resultado calculado (output)
 3. Esse é um algoritmo muito mais próximo do que veremos a frente, pois é composto por simples operações de entrada e/ou saída. Estando assim muito mais próximo do que um computador pode realizar naturalmente.
 
 
@@ -239,7 +239,7 @@ int main(void){
     return(0);
 }
 ```
-**Rodando o código no terminal Linux**
+**Rodando o código em um terminal Linux**
 ```
 Algoritmos/codigos/hello$ ls
 hello.c
@@ -251,6 +251,8 @@ Algoritmos/codigos/hello$ ./hello
 Olá, mundo!
 Algoritmos/codigos/hello$
 ```
+
+
 
 
 
