@@ -216,7 +216,7 @@ Um exemplo desse tipo de padrão é a tabela ASCII que representa o alfabeto est
 | ...      |   ...      | ...   | ...|[^6][^6]: trecho da tabela ascii.
 
 A partir dessa ideia de padronização de determinados objetos em sequências de bits, define-se base para manipulação de informações em computadores. <br>
-Porém, computadores continuam apenas interprPor isso existem programas executáveis diferentes para a interpretação de tipos de arquivos diferentes. Um reprodutor de vídeos por exemplo, é um interpretador de arquivos de vídeo que traduz o código do vídeo em imagem na tela.etando uns e zeros, portanto, para que possamos ver textos, vídeos, imagens e etc, precisamos traduzir esses bits em conteúdo consumivel a partir de um interpretador de padrões, um tradutor de bits para conteúdo, basicamente. <br>
+Porém, computadores continuam apenas interpretar bits. Por isso existem programas executáveis diferentes para a interpretação de tipos de arquivos diferentes. Um reprodutor de vídeos por exemplo, é um interpretador de arquivos de vídeo que traduz o código do vídeo em imagem na tela.etando uns e zeros, portanto, para que possamos ver textos, vídeos, imagens e etc, precisamos traduzir esses bits em conteúdo consumivel a partir de um interpretador de padrões, um tradutor de bits para conteúdo, basicamente. <br>
 Por isso existem programas executáveis diferentes para a interpretação de tipos de arquivos diferentes. Um reprodutor de vídeos por exemplo, é um interpretador de arquivos de vídeo que traduz o código do vídeo em imagens na tela. <br>
 
 ### Linguagem de Máquina Assembler
