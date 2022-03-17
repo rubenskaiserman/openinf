@@ -227,7 +227,19 @@ Como a origem dos computadores e linguagens de programação se deu principalmen
 [^6]: Por mais que os códigos estejam escritos em inglês, o idioma não é uma barreira para o aprendizado de programação, pois é muito mais sobre os padrões do uso, do que sobre o texto em si. Dito isso, a maior parte do conteúdo sobre esse tema está em inglês, então saber esse idioma é uma ferramenta muito util nesse meio.
 
 
-### Linguagem C
+## Linguagem C
+
+Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma contextualizada e exemplificada. Assim dando uma visão muito melhor de como funciona a construção de soluções computacionais na vida real. 
+
+
+### Funções
+### Váriaveis
+### Operadores
+### Comandos
+### Bibliotecas
+### Strings e caracteres especiais
+### Sintaxe da linguagem C
+### 
 
 **Primeiro código em C**
 ```
@@ -236,20 +248,20 @@ Como a origem dos computadores e linguagens de programação se deu principalmen
 int main(void){
     printf("Olá, mundo!\n");
 
-    return(0);
+    return 0;
 }
 ```
 **Rodando o código em um terminal Linux**
 ```
-Algoritmos/codigos/hello$ ls
+algoritmos/codigos/hello$ ls
 hello.c
-Algoritmos/codigos/hello$ make hello 
+algoritmos/codigos/hello$ make hello 
 cc     hello.c   -o hello
-Algoritmos/codigos/hello$ ls
+algoritmos/codigos/hello$ ls
 hello  hello.c
-Algoritmos/codigos/hello$ ./hello
+algoritmos/codigos/hello$ ./hello
 Olá, mundo!
-Algoritmos/codigos/hello$
+algoritmos/codigos/hello$
 ```
 
 

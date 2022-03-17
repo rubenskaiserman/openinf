@@ -7,6 +7,6 @@ int main(void){
     double a = pi * r * r;
     printf("A área para o raio inserido é: %f\n", a);
 
-    return(0);
+    return 0;
 }
 
