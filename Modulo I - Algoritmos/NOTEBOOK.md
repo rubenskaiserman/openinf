@@ -22,8 +22,8 @@
 Que é um jeito chique de dizer que é uma calculadora com esteróides.
 
 
-![Entrada->Processamento->Saída imagem de cs50-Harvard](imagens/input_output.png)[^2]
-[^2]: Imagem de cs50-Harvard-Course
+![Entrada->Processamento->Saída imagem de cs50-Harvard](imagens/input_output.png)[^1]
+[^1]: Imagem de cs50-Harvard-Course
 
 Um computador no geral pode ser representado como a imagem ilustra, uma máquina que recebe um input(entrada de dados) faz uma série de ações desconhecidas e devolve um resultado como output. <br>
 O trabalho de um desenvolvedor de software é em suma, escrever as instruções de como os dados de entrada devem ser processados a fim de gerar o resultado esperado.
@@ -45,8 +45,8 @@ Resumidamente, um processador é a parte responsável pelos calculos e operaçõ
 - gravação de eventuais resultados do processamento
 - Reinicio do processo caso necessário
 
-### Memória Ram[^3]
-[^3]: Existem outros tipos de memória, mas normalmente, preocupa-se apenas com a memória ram, pois é de lá que são retirados os dados para o processamento.
+### Memória Ram[^2]
+[^2]: Existem outros tipos de memória, mas normalmente, preocupa-se apenas com a memória ram, pois é de lá que são retirados os dados para o processamento.
 
 Memória Ram pode ser visualizada como uma grande tabela com duas colunas. Endereço e dado:
 
@@ -121,8 +121,8 @@ Enquanto (Não chegar no ponto) faça{
 }
 Sair do onibus
 ```
-[^4]
-[^4]: Problema retirado de "Introdução a Algoritmos e Programação"(Editado)
+[^3]
+[^3]: Problema retirado de "Introdução a Algoritmos e Programação"(Editado)
 
 ***Notam-se mais algumas caracteristicas importantes dos algoritmos nesse exemplo.***
 1. Um algoritmo pode realizar decisões
@@ -189,8 +189,8 @@ imprima(A)
 ## Linguagens de programação e padrões computacionais
 
 ### Código binário, a linguagem dos computadores
-É conhecimento comum de que computadores funcionam a partir de código binário. Ou seja, computadores se comunicam e funcionam a partir de sequências de bits(zeros e uns). Onde cada 1 representa a existência de pulso elétrico e cada 0 a não existência de pulsos elétricos.[^5]
-[^5]: bits são definidos como a menor unidade de informação possível, uma resposta para uma pergunta de sim ou não. 1 sendo sim(verdadeiro) e 0 sendo não(falso).
+É conhecimento comum de que computadores funcionam a partir de código binário. Ou seja, computadores se comunicam e funcionam a partir de sequências de bits(zeros e uns). Onde cada 1 representa a existência de pulso elétrico e cada 0 a não existência de pulsos elétricos.[^4]
+[^4]: bits são definidos como a menor unidade de informação possível, uma resposta para uma pergunta de sim ou não. 1 sendo sim(verdadeiro) e 0 sendo não(falso).
 <br>
 Então uma pergunta válida sería, "Como escrever um texto em um computador se ele apenas aceita dois caractéres numéricos?"<br>
 Uma resposta válida sería "Assim: 01001111 01101100 11100001 00100000 01101101 01110101 01101110 01100100 01101111"("Olá mundo" em binário). Ou seja, criando padrões binários que representam letras, e a combinação desses padrões formáriam palavras e textos.<br>
@@ -213,7 +213,7 @@ Um exemplo desse tipo de padrão é a tabela ASCII que representa o alfabeto est
 |J         |	74      |0112   |0x4a|
 |K         |	75      |0113   |0x4b|
 |L         |	76      |0114   |0x4c|
-| ...      |   ...      | ...   | ...|[^6][^6]: trecho da tabela ascii.
+| ...      |   ...      | ...   | ...|[^5][^5]: trecho da tabela ascii.
 
 A partir dessa ideia de padronização de determinados objetos em sequências de bits, define-se base para manipulação de informações em computadores. <br>
 Porém, computadores continuam apenas interpretar bits. Por isso existem programas executáveis diferentes para a interpretação de tipos de arquivos diferentes. Um reprodutor de vídeos por exemplo, é um interpretador de arquivos de vídeo que traduz o código do vídeo em imagem na tela.etando uns e zeros, portanto, para que possamos ver textos, vídeos, imagens e etc, precisamos traduzir esses bits em conteúdo consumivel a partir de um interpretador de padrões, um tradutor de bits para conteúdo, basicamente. <br>
@@ -223,8 +223,38 @@ Por isso existem programas executáveis diferentes para a interpretação de tip
 No tópico anterior, foi falado sobre como o código binário é interpretado por diferentes interfaces a fim de mostrar ao usuário determinado tipo de informação. Porém, essas interfaces têm que ter sido construídas por alguém, e sendo o ser humano essa criatura péssima na interpretação de código binário, é difícil imaginar que alguém construíria um sistema tão complexo utilizando zeros e uns. Por isso não fizeram. <br>
 Bom, alguém fez, mas não foi para sistemas como esses, os primeiros desenvolvedores, decidiram utilizar uma estratégia mais inteligente. Ainda na ideia de modelagem de padrões, foi decidida a construção de linguagens mais fáceis de serem interpretadas por seres humanos, como por exemplo, assembly. <br>
 Assembly é por muitos definida como código de máquina legível pelo ser humano, o que significa que de um ponto de vista franco, ela é mais legivel que código binário, ao mesmo tempo que é extremamente difícil de compreender por ainda estar muito distante da linguagem natural. Além do que, para coda arquitetura de computador possui uma linguagem assembly diferente, ou seja, para programar para máquinas diferentes era necessário aprender linguagens muito distintas uma da outra, portanto, não existia portabilidade de software. Porém, com o passar do tempo, se desenvolveram linguagens mais modernas, que se aproximam mais da linguagem natural, e que são portáveis para diferentes máquinas, como por exemplo Pascal, Fortran, C e etc. C por exemplo é carinhosamente chamada como mãe das linguagens de programação modernas, pois sua sintaxe foi muito difundida, podendo ser vista similaridades a ela em quase todas as linguagens mais utilizadas, como Python, JavaScript e Rust.
+Como a origem dos computadores e linguagens de programação se deu principalmente em países falantes da lingua inglesa, convencionou-se que as linguagens de programação utilizariam inglês para a sua sintaxe. Consequêntemente até hoje as palavras reservadas das linguagens, assim como a maioria dos códigos abertos estarão escritos em inglês.[^6]
+[^6]: Por mais que os códigos estejam escritos em inglês, o idioma não é uma barreira para o aprendizado de programação, pois é muito mais sobre os padrões do uso, do que sobre o texto em si. Dito isso, a maior parte do conteúdo sobre esse tema está em inglês, então saber esse idioma é uma ferramenta muito util nesse meio.
+
 
 ### Linguagem C
+
+**Primeiro código em C**
+```
+#include <stdio.h>
+
+int main(void){
+    printf("Olá, mundo!\n");
+
+    return(0);
+}
+```
+**Rodando o código no terminal Linux**
+```
+Algoritmos/codigos/hello~$ ls
+hello.c
+Algoritmos/codigos/hello~$ make hello 
+cc     hello.c   -o hello
+Algoritmos/codigos/hello~$ ls
+hello  hello.c
+Algoritmos/codigos/hello~$ ./hello
+Olá, mundo!
+Algoritmos/codigos/hello~$
+```
+
+
+
+
 // Nota: Fazer o cálculo de área do circulo em C
 
 
