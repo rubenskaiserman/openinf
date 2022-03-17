@@ -241,15 +241,15 @@ int main(void){
 ```
 **Rodando o código no terminal Linux**
 ```
-Algoritmos/codigos/hello~$ ls
+Algoritmos/codigos/hello$ ls
 hello.c
-Algoritmos/codigos/hello~$ make hello 
+Algoritmos/codigos/hello$ make hello 
 cc     hello.c   -o hello
-Algoritmos/codigos/hello~$ ls
+Algoritmos/codigos/hello$ ls
 hello  hello.c
-Algoritmos/codigos/hello~$ ./hello
+Algoritmos/codigos/hello$ ./hello
 Olá, mundo!
-Algoritmos/codigos/hello~$
+Algoritmos/codigos/hello$
 ```
 
 
