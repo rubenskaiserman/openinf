@@ -227,10 +227,8 @@ Como a origem dos computadores e linguagens de programação se deu principalmen
 [^6]: Por mais que os códigos estejam escritos em inglês, o idioma não é uma barreira para o aprendizado de programação, pois é muito mais sobre os padrões do uso, do que sobre o texto em si. Dito isso, a maior parte do conteúdo sobre esse tema está em inglês, então saber esse idioma é uma ferramenta muito util nesse meio.
 
 
-## Linguagem C
-
-Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma melhor contextualizada. Assim dando uma visão mais clara de como funciona a construção de soluções computacionais na vida real. <br>
-A seguir, antes do primeiro exemplo de código, serão apresentadas algumas ferramentas que facilitam o desenvolvimento, algumas tecnologias que permitem o software funcionar e algumas noções iniciais sobre a linguagem C e linguagens em geral. 
+## Ferramentas e técnologias para programação
+A seguir, antes da introdução da linguagem C, serão apresentadas algumas ferramentas que facilitam o desenvolvimento, algumas tecnologias que permitem o software funcionar e algumas noções iniciais sobre a linguagem C e linguagens em geral. 
 
 ### IDEs e Editores de Texto
 Uma IDE(Ambiente de desenvolvimento integrado)[^7] ou editores de texto especializados, tem o objetivo de facilitar e acelerar o desenvolvimento de software, apresentando diversas ferramentas e integrações, que manualmente trariam uma grande perda de tempo. Uma das caracteristicas mais uteis de um editor de texto é a identificação de problemas na sintaxe durante o desenvolvimento. Como por exemplo, esquecer o ponto e virgula no final do comando.
@@ -253,6 +251,14 @@ O terminal é util principalmente para desenvolvedores, pois podem a partir de c
 ### Linux
 Linux é um sistema operacional assim como Windows e MacOS, porém, no mundo da programação, diferente do mundo dos computadores pessoais, linux é um sistema muito mais utilizado, seja na web para hospedar sites em servidores, para rodar sistemas cloud, em celulares com o android que é baseado em um sistema linux, entre diversas outras aplicações. Por isso mesmo que não no desenvolvimento, programadores e programadoras, acabarão em algum momento utilizando linux, provavelmente multiplas vezes. Portanto é lógico que se acostume logo de inicio com sistema, e com opções como o ubuntu que possuem uma interface tão intuitiva quanto um Windows ou MacOS. <br>
 Além de ser muito usado para sistemas completos, linux é também imbuido de diversas ferramentas que facilitam e aceleram o desenvolvimento de software, como por exemplo uma sintaxe mais simples no terminal, e gerenciadores de pacotes, leia-se instaladores de programas muito mais rápidos e simples. 
+
+
+
+
+## Linguagem C
+
+Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma melhor contextualizada. Assim dando uma visão mais clara de como funciona a construção de soluções computacionais na vida real. <br>
+
 
 ### Funções
 ### Váriaveis
