@@ -12,4 +12,4 @@ C deve ser usado pelo menos até estruturas de dados, e depois deve ser trocado 
 Essa apostila também deve cobrir conteúdos sobre Web e bancos de dados. Aqui no README.md eu devo colocar um grande sumário, então já vou começar.
 
 
-## - [Algoritmos](https://github.com/rubskaiserman/open-source-informatica/algoritmos/NOTEBOOK.md)
+## - [Algoritmos](https://github.com/rubskaiserman/open-source-informatica/blob/main/algoritmos/NOTEBOOK.md)
