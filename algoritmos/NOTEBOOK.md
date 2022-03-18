@@ -319,14 +319,37 @@ algoritmos/codigos/hello$
 ``` 
 ### Análise do exemplo
 Sobre o código C, vemos que existe um arquivo chamado stdio.h sendo importado para o arquivo. Essa é uma biblioteca inicial que vêm junto da linguagem C, e que possui algumas funções de input e output de valores, como por exemplo o printf(). <br>
-Mais abaixo é definida a função principal como do tipo inteiro e recebendo void como parâmetro, o que significa que não recebe nenhum parâmetro. A função principal ser do tipo int é um padrão de código, onde o código irá retornar 0 se tudo correr bem ao rodar o programa, ou 1, se existir algum problema. <br>
+Mais abaixo é definida a função principal como do tipo inteiro e recebendo void como parâmetro, o que significa que não recebe nenhum parâmetro. A função principal ser do tipo int é um padrão de código, onde o código irá retornar 0 se tudo correr bem ao rodar o programa, ou algum outro número, se existir algum problema. <br>
 Logo abaixo a função printf() é utilizada, recebendo como parâmetros apenas uma String contendo o texto "Olá, mundo!\n" onde o \n é um termo especial que é interpretado como um comando para pular uma linha ao final do texto. De modo geral a função printf() imprime uma String no terminal.<br>
 Ao final da função main, é retornado o valor 0, assim confirmando que tudo correu bem. 
 Ou seja, podemos deduzir que ao rodar o programa o terminal imprimirá os dizeres dentro da função printf() como é visto no terminal abaixo.
 No terminal exemplificado, vemos que estamos dentro do diretório algoritmos/codigos/hello. Que pode ser visto nesse repositório. O comando ls lista os arquivos e pastas presentes no diretório em que estamos. Ou seja, existe apenas um arquivo chamado hello.c que é onde se encontra o código do exemplo. <br>
-Porém, para rodar esse código é necessário antes compila-lo para código de máquina, como dito em tópicos anteriores. make por sua vez, é um programa que automatiza exatamente esse processo, automaticamente criando um arquivo executável com o mesmo nome, ou seja, "hello" sem o ".c", como demonstrado na listagem posterior. Em seguida, basta rodar o código executável, que é feito a partir do ./, que é um jeito de dizer "Na pasta atual, execute o arquivo hello". e Logo abaixo pode-se ver o resultado como sendo o texto "Olá, mundo!" o clássico primeiro programa que todo desenvolvedor deve escrever e executar antes de todos os outros.
+Porém, para rodar esse código é necessário antes compila-lo para código de máquina, como dito em tópicos anteriores. make por sua vez, é um programa que automatiza exatamente esse processo, automaticamente criando um arquivo executável com o mesmo nome, ou seja, "hello" sem o ".c", como demonstrado na listagem posterior. Em seguida, basta rodar o código executável, que é feito a partir do ./, que é um jeito de dizer "Na pasta atual, execute o arquivo hello". e Logo abaixo pode-se ver o resultado como sendo o texto "Olá, mundo!"
 Abaixo é apenas a linha de comando esperando a próxima instrução.
+Uma nota válida para se fazer, é que caso se deseje modificar algo no código fonte, será necessário recompilar o programa para que a mudança tenha efeito, afinal o código executável é uma tradução estática do código que você compilou. <br>
+Como por exemplo se ao invés de escrever "Olá, mundo!", fosse desejado escrever "Olá, linguagem C!"
 
+```
+#include <stdio.h>
+
+int main(void){
+    printf("Olá, linguagem C!\n");
+
+    return 0;
+}
+```
+```
+algoritmos/codigos/hello$ ./hello
+Olá, mundo!
+algoritmos/codigos/hello$ make hello
+cc     hello.c   -o hello
+algoritmos/codigos/hello$ ./hello
+Olá, linguagem C!
+algoritmos/codigos/hello$ 
+```
+Como podemos ver, o código apenas fez o desejado após a recompilação. Também é interessante notar que o arquivo anterior foi "substituido" por uma nova versão com o mesmo nome, assim sendo, para voltar a versão anterior, sería preciso recompilar de novo. <br>
+É fortemente recomendado para o aprendizado que sejam feitas diversas práticas, como por exemplo experimentar a modificação do código apresentado aqui, escrever o seu próprio, entre outras. Portanto, caso exista alguma dúvida que não seja suprida na análise do código, sinta-se livre para experimentar no programa e ver o que acontece. <br>
+Uma pequena nota de cautela, é que não se deve assustar com erros. Erros vão acontecer muitas vezes, e o processo de programar não é apenas dar instruções, mas corrigir instruções erradas. Portanto, trate os bugs como o que eles são, problemas enfrentados por desenvolvedores em todas as etapas de sua carreira.
 
 ### Variáveis
 ### Operadores
