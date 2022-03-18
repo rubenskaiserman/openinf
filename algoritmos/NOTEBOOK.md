@@ -199,7 +199,7 @@ Um exemplo desse tipo de padrão é a tabela ASCII que representa o alfabeto est
 
 | Caracter |   bin   | 	 Dec 	| Oct 	| Hex|
 |----------|---------|----------|-------|----|
-|...       |         |   ...    |  ...  | ...|
+|...       | ...     |   ...    |  ...  | ...|
 |@         |01000000 |	 64     | 0100  |0x40|
 |A         |01000001 |	 65     | 0101  |0x41|
 |B         |01000010 |	 66     | 0102  |0x42|
@@ -262,7 +262,7 @@ Antes do primeiro exemplo, serão definidos melhor alguns ultimos conceitos de p
 
 ### Tipos primitivos
 Como dito antes, computadores entendem apenas código binário, então se fazem necessários jeitos de diferênciar tipos de dados, afinal tanto números quanto letras são representados por bits. Portanto, ao utilizar dados no código é necessário passar para o computador qual é o tipo de dado ele deve esperar. <br>
-Inicialmente falaremos sobre cinco tipos de dados: int para valores inteiros(...-2, -1, 0, 1, 2...), double para valores reais(...-1.0, -0.5, 0.0, 0.5, 1.0...), char para caracteres('a', 'b', 'c', 'd'...), booleanos para verdadeiro ou falso(1 ou 0), e por fim Strings para textos("Olá, Mundo!", "Batatas fritas frias", "Paz e amor"). <br>
+Inicialmente falaremos sobre quatro tipos de dados: int para valores inteiros(...-2, -1, 0, 1, 2...), double para valores reais(...-1.0, -0.5, 0.0, 0.5, 1.0...), char para caracteres('a', 'b', 'c', 'd'...) e booleanos para verdadeiro ou falso(1 ou 0). <br>
 Mais a frente explicaremos melhor sobre tipos de dados, mas por enquanto, entenda que são apenas uma forma de dizer ao computador como interpretar a informação que está sendo inserida e que cada tipo de dado tem intrinseco a si uma quantidade de informação que pode aguentar, por exemplo uma String é composta por uma sequência de caracteres, portanto um char só precisa guardar uma fração da informação necessária para uma string, então a fim de otimizar o uso da memória um char vai utilizar apenas uma fração do espaço que uma string utilizaria.
 
 ### Funções 
@@ -278,7 +278,7 @@ int nomeFuncao(int numero1, int numero2, double numeroReal, String texto){
     return algumValorInteiro;
 }
 ```
-
+Uma vez criadas, para utiliza-las, ao invés de ter que escrever todo o bloco de código contido nelas, basta "chamar" o nome da função, e dar a ela os parâmetros necessários, e o código será rodado. 
 
 
 ### Bibliotecas e importações
@@ -295,7 +295,7 @@ Cada instrução em C precisa ser terminada com ";", para que o computador compr
 As importações são feitas a partir da inclusão no inicio do código, a partir do comando #include.
 O código principal de um arquivo C é definido dentro dos limites de uma função, a chamada função main().
 
-**Primeiro código em C**
+### Primeiro código em C
 ```
 #include <stdio.h>
 
@@ -320,8 +320,8 @@ algoritmos/codigos/hello$
 ### Análise do exemplo
 Sobre o código C, vemos que existe um arquivo chamado stdio.h sendo importado para o arquivo. Essa é uma biblioteca inicial que vêm junto da linguagem C, e que possui algumas funções de input e output de valores, como por exemplo o printf(). <br>
 Mais abaixo é definida a função principal como do tipo inteiro e recebendo void como parâmetro, o que significa que não recebe nenhum parâmetro. A função principal ser do tipo int é um padrão de código, onde o código irá retornar 0 se tudo correr bem ao rodar o programa, ou algum outro número, se existir algum problema. <br>
-Logo abaixo a função printf() é utilizada, recebendo como parâmetros apenas uma String contendo o texto "Olá, mundo!\n" onde o \n é um termo especial que é interpretado como um comando para pular uma linha ao final do texto. De modo geral a função printf() imprime uma String no terminal.<br>
-Ao final da função main, é retornado o valor 0, assim confirmando que tudo correu bem. 
+Logo abaixo a função printf() é utilizada, recebendo como parâmetros apenas uma String contendo o texto "Olá, mundo!\n" onde o \n é um termo especial que é interpretado como um comando para pular uma linha ao final do texto. De modo geral a função printf() imprime uma String no terminal. Um detalhe importante, é que pode-se notar que não é necessário declarar o tipo da função durante o chamado dela, basta chamar o nome seguido de "(" e ")" com os parâmetros necessários entre esses parênteses.<br>
+De volta a função main, nota-se que no final é retornado o valor 0, assim, confirmando que tudo correu bem. 
 Ou seja, podemos deduzir que ao rodar o programa o terminal imprimirá os dizeres dentro da função printf() como é visto no terminal abaixo.
 No terminal exemplificado, vemos que estamos dentro do diretório algoritmos/codigos/hello. Que pode ser visto nesse repositório. O comando ls lista os arquivos e pastas presentes no diretório em que estamos. Ou seja, existe apenas um arquivo chamado hello.c que é onde se encontra o código do exemplo. <br>
 Porém, para rodar esse código é necessário antes compila-lo para código de máquina, como dito em tópicos anteriores. make por sua vez, é um programa que automatiza exatamente esse processo, automaticamente criando um arquivo executável com o mesmo nome, ou seja, "hello" sem o ".c", como demonstrado na listagem posterior. Em seguida, basta rodar o código executável, que é feito a partir do ./, que é um jeito de dizer "Na pasta atual, execute o arquivo hello". e Logo abaixo pode-se ver o resultado como sendo o texto "Olá, mundo!"
@@ -353,7 +353,33 @@ Uma pequena nota de cautela, é que não se deve assustar com erros. Erros vão 
 
 ### Variáveis
 ### Operadores
-### Strings e caracteres especiais
+
+
+### Próximo exemplo
+
+Bom, vamos voltar em um dos exemplos apresentados anteriormente. Digamos que seja desejado calcular a área de um circulo a partir da inserção de um raio.
+Podemos por exemplo construir uma função que recebe um raio por parâmetro e retorna um double área do circulo.
+Vamos dividir esse problema em partes.
+
+### A = $\pi$ $\times$ $r^2$
+Portanto precisamos de pi. Sabemos que pi é uma constante cujo valor é aproximadamente 3.14159. Então devemos usar isso para calcular a área.
+```
+# include <stdio.h>
+
+double areaCirculo(double r){
+    double pi = 3.14159;
+
+    return (pi * r * r); 
+}
+
+int main(void){
+    printf("Área = %lf\n", areaCirculo(2.0));
+
+    return 0;
+}
+```
+### Análise do exemplo
+
 
 
 
