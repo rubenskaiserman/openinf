@@ -197,23 +197,23 @@ Uma resposta válida sería "Assim: 01001111 01101100 11100001 00100000 01101101
 Que é bem próximo da forma que escrevemos e transmitimos informações em computadores, a partir de padrões de códigos binários definidos que representam determinado valor abstrato do mundo real.
 Um exemplo desse tipo de padrão é a tabela ASCII que representa o alfabeto estadunidense junto de um conjunto de pontuações e caracteres especiais como pode ser visto no exemplo abaixo. <br>
 
-| Caracter | 	Dec 	| Oct 	| Hex|
-|----------|------------|-------|----|
-|...       |    ...     | ...   | ...|
-|@         |	64      |0100   |0x40|
-|A         |	65      |0101   |0x41|
-|B         |	66      |0102   |0x42|
-|C         |	67      |0103   |0x43|
-|D         |	68      |0104   |0x44|
-|E         |	69      |0105   |0x45|
-|F         |	70      |0106   |0x46|
-|G         |	71      |0107   |0x47|
-|H         |	72      |0110   |0x48|
-|I         |	73      |0111   |0x49|
-|J         |	74      |0112   |0x4a|
-|K         |	75      |0113   |0x4b|
-|L         |	76      |0114   |0x4c|
-| ...      |   ...      | ...   | ...|[^5][^5]: trecho da tabela ascii.
+| Caracter |   bin   | 	 Dec 	| Oct 	| Hex|
+|----------|---------|----------|-------|----|
+|...       |         |   ...    |  ...  | ...|
+|@         |01000000 |	 64     | 0100  |0x40|
+|A         |01000001 |	 65     | 0101  |0x41|
+|B         |01000010 |	 66     | 0102  |0x42|
+|C         |01000011 |	 67     | 0103  |0x43|
+|D         |01000100 |	 68     | 0104  |0x44|
+|E         |01000101 |	 69     | 0105  |0x45|
+|F         |01000110 |	 70     | 0106  |0x46|
+|G         |01000111 |	 71     | 0107  |0x47|
+|H         |01001000 |	 72     | 0110  |0x48|
+|I         |01001001 |	 73     | 0111  |0x49|
+|J         |01001010 |	 74     | 0112  |0x4a|
+|K         |01001001 |	 75     | 0113  |0x4b|
+|L         |01001100 |	 76     | 0114  |0x4c|
+| ...      |  ...    |    ...   | ...   | ...|[^5][^5]: trecho da tabela ascii.
 
 A partir dessa ideia de padronização de determinados objetos em sequências de bits, define-se base para manipulação de informações em computadores. <br>
 Porém, computadores continuam apenas interpretar bits. Por isso existem programas executáveis diferentes para a interpretação de tipos de arquivos diferentes. Um reprodutor de vídeos por exemplo, é um interpretador de arquivos de vídeo que traduz o código do vídeo em imagem na tela.etando uns e zeros, portanto, para que possamos ver textos, vídeos, imagens e etc, precisamos traduzir esses bits em conteúdo consumivel a partir de um interpretador de padrões, um tradutor de bits para conteúdo, basicamente. <br>
