@@ -258,17 +258,30 @@ Além de ser muito usado para sistemas completos, linux é também imbuido de di
 ## Linguagem C
 
 Até aqui, esse notebook se focou na construção teórica das bases computacionais por trás da programação. Mas agora, com a introdução da linguagem C, junto das tecnicalidades da construção de um software, esse notebook irá se basear na utilização de exemplos práticos com explicações detalhadas a fim de apresentar as informações de forma melhor contextualizada. Assim dando uma visão mais clara de como funciona a construção de soluções computacionais na vida real. <br>
+Antes do primeiro exemplo, serão definidos melhor alguns ultimos conceitos de programação, utilizando a linguagem C como base.
 
+### Tipos primitivos
+Como dito antes, computadores entendem apenas código binário, então se fazem necessários jeitos de diferênciar tipos de dados, afinal tanto números quanto letras são representados por bits. Portanto, ao utilizar dados no código é necessário passar para o computador qual é o tipo de dado ele deve esperar. <br>
+Inicialmente falaremos sobre cinco tipos de dados: int para valores inteiros(...-2, -1, 0, 1, 2...), double para valores reais(...-1.0, -0.5, 0.0, 0.5, 1.0...), char para caracteres('a', 'b', 'c', 'd'...), booleanos para verdadeiro ou falso(1 ou 0), e por fim Strings para textos("Olá, Mundo!", "Batatas fritas frias", "Paz e amor"). <br>
+Mais a frente explicaremos melhor sobre tipos de dados, mas por enquanto, entenda que são apenas uma forma de dizer ao computador como interpretar a informação que está sendo inserida e que cada tipo de dado tem intrinseco a si uma quantidade de informação que pode aguentar, por exemplo uma String é composta por uma sequência de caracteres, portanto um char só precisa guardar uma fração da informação necessária para uma string, então a fim de otimizar o uso da memória um char vai utilizar apenas uma fração do espaço que uma string utilizaria.
 
-### Funções
-### Váriaveis
-### Operadores
-### Comandos
-### Bibliotecas
-### Strings e caracteres especiais
+### Funções 
+Falaremos mais sobre funções em outro momento, mas inicialmente o que é preciso entender, é que funções são algoritmos contidos em um bloco de código separado de seu algoritmo principal. Essas funções podem ser chamadas a partir de um nome, e realizar a operação contida nelas. <br>
+Funções podem receber dados e retornar resultados. Os dados recebidos são chamados de parâmetros, e os resultados são chamados de retorno. O retorno em especial, define o tipo da função, se uma função retorna um número inteiro, a função é do tipo int, se a função retorna um tipo de texto, a função é do tipo texto, e se a função não retorna nada, ela é do tipo vazio. <br>
+No momento determina-se a separação do código em funções, um meio de melhor organizar seus arquivos de programa.
+
+### Bibliotecas e importações
+O reuso de código é uma coisa comum no mundo da programação. Afinal, se fosse necessária a reimplementação de um mesmo código a cada programa que o desenvolvedor escreve, sería perdida uma grande quantidade de tempo que poderia ser utilizada desenvolvendo códigos novos necessários. <br>
+Quando os códigos são organizados em um "pacote" contendo vários programas externos ao arquivo principal, chamamos esse "pacote" ou conjunto de "pacotes" de biblioteca. Similarmente, chamamos o conjunto de adição de diferentes bibliotecas ou códigos externos a um arquivo de importações. <br>
+Por padrão, adicionam-se todas as importações utilizadas em um arquivom no topo de seu código, tanto por organização quanto por funcionalidade em alguns casos. <br>
+Algumas bibliotecas vêm disponiveis junto da linguagem de programação, e basta fazer sua importação no arquivo desejado. Porém também existem bibliotecas externas aos montes, que consistêm de código desenvolvido por outras pessoas, mas que pode ser feito o download, e depois o uso do código externo. <br>
+E é claro que você pode reutilizar seu próprio código em diferentes arquivos a partir da importação do código desejado.
+
 ### Sintaxe da linguagem C
-
-
+Cada linguagem de programação têm suas particularidades na escrita de código, e essas particularidades são chamadas de sintaxe. <br>
+Na linguagem C, como nos exemplos anteriores, os blocos de código são separados por "{" e "}", e esses caracteres mostram ao computador onde começa e onde termina uma sequência de instruções. <br>
+Cada instrução em C precisa ser terminada com ";", para que o computador compreenda que ali é o ponto onde ele executa uma instrução, para que ele possa partir para a próxima.
+As importações são feitas a partir da inclusão no inicio do código, a partir do comando #include.
 
 **Primeiro código em C**
 ```
@@ -280,7 +293,7 @@ int main(void){
     return 0;
 }
 ```
-**Rodando o código em um terminal Linux**
+**Rodando o código em um bash ubuntu**
 ```
 algoritmos/codigos/hello$ ls
 hello.c
@@ -291,7 +304,32 @@ hello  hello.c
 algoritmos/codigos/hello$ ./hello
 Olá, mundo!
 algoritmos/codigos/hello$
-```
+``` 
+
+
+
+
+
+
+### Variáveis
+### Operadores
+### Strings e caracteres especiais
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -348,5 +386,5 @@ algoritmos/codigos/hello$
 
 ## Fontes
 - "INTRODUÇÃO A ALGORITMOS E PROGRAMAÇÃO" de FABRICIO FERRARI e CRISTIAN CECHINEL
-- cs50 - Harvard's Introduction to Computer Science Course
+- cs50 - Harvard's Introduction to Computer Science
 - Tabela ascii: https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
