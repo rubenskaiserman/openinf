@@ -1,11 +1,13 @@
 # include <stdio.h>
 
-int main(void){
+double areaCirculo(double r){
     double pi = 3.14159;
-    double r;
-    scanf("%le", &r);
-    double a = pi * r * r;
-    printf("A área para o raio inserido é: %f\n", a);
+
+    return (pi * r * r); 
+}
+
+int main(void){
+    printf("Área = %lf\n", areaCirculo(2.0));
 
     return 0;
 }
