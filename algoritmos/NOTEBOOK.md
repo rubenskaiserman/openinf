@@ -266,9 +266,20 @@ Inicialmente falaremos sobre cinco tipos de dados: int para valores inteiros(...
 Mais a frente explicaremos melhor sobre tipos de dados, mas por enquanto, entenda que são apenas uma forma de dizer ao computador como interpretar a informação que está sendo inserida e que cada tipo de dado tem intrinseco a si uma quantidade de informação que pode aguentar, por exemplo uma String é composta por uma sequência de caracteres, portanto um char só precisa guardar uma fração da informação necessária para uma string, então a fim de otimizar o uso da memória um char vai utilizar apenas uma fração do espaço que uma string utilizaria.
 
 ### Funções 
-Falaremos mais sobre funções em outro momento, mas inicialmente o que é preciso entender, é que funções são algoritmos contidos em um bloco de código separado de seu algoritmo principal. Essas funções podem ser chamadas a partir de um nome, e realizar a operação contida nelas. <br>
-Funções podem receber dados e retornar resultados. Os dados recebidos são chamados de parâmetros, e os resultados são chamados de retorno. O retorno em especial, define o tipo da função, se uma função retorna um número inteiro, a função é do tipo int, se a função retorna um tipo de texto, a função é do tipo texto, e se a função não retorna nada, ela é do tipo vazio. <br>
-No momento determina-se a separação do código em funções, um meio de melhor organizar seus arquivos de programa.
+Falaremos mais sobre funções no tópico sobre paradigmas de programação, mas inicialmente o que é preciso entender, é que funções são algoritmos contidos em um bloco de código separado de seu código principal. Essas funções podem ser chamadas a partir de um nome, e realizar as operações contidas nelas. <br>
+Funções podem receber dados e retornar resultados. Os dados recebidos são chamados de parâmetros, que usualmente são definidos dentro de "()", e os resultados são chamados de retorno. O retorno em especial, define o tipo da função, se uma função retorna um número inteiro, a função é do tipo int, se a função retorna um tipo de texto, a função é do tipo String, e se a função não retorna nada, ela é do tipo void(vazio). <br>
+No momento determina-se a separação do código em funções, um meio de melhor organizar seus arquivos de programa. <br>
+Em C e várias outras linguagens, uma função é criada, ou como chamamos, declarada, a partir da seguinte sintaxe: tipo nomeDaFunção(tipo parâmetro1, tipo parâmetro2 ...){}. Ou seja, uma função recebe parâmetros dentro de parênteses, e limita seu código dentro de {}.
+```
+//Exemplo
+
+int nomeFuncao(int numero1, int numero2, double numeroReal, String texto){
+    //código
+    return algumValorInteiro;
+}
+```
+
+
 
 ### Bibliotecas e importações
 O reuso de código é uma coisa comum no mundo da programação. Afinal, se fosse necessária a reimplementação de um mesmo código a cada programa que o desenvolvedor escreve, sería perdida uma grande quantidade de tempo que poderia ser utilizada desenvolvendo códigos novos necessários. <br>
@@ -282,6 +293,7 @@ Cada linguagem de programação têm suas particularidades na escrita de código
 Na linguagem C, como nos exemplos anteriores, os blocos de código são separados por "{" e "}", e esses caracteres mostram ao computador onde começa e onde termina uma sequência de instruções. <br>
 Cada instrução em C precisa ser terminada com ";", para que o computador compreenda que ali é o ponto onde ele executa uma instrução, para que ele possa partir para a próxima.
 As importações são feitas a partir da inclusão no inicio do código, a partir do comando #include.
+O código principal de um arquivo C é definido dentro dos limites de uma função, a chamada função main().
 
 **Primeiro código em C**
 ```
@@ -305,10 +317,15 @@ algoritmos/codigos/hello$ ./hello
 Olá, mundo!
 algoritmos/codigos/hello$
 ``` 
-
-
-
-
+### Análise do exemplo
+Sobre o código C, vemos que existe um arquivo chamado stdio.h sendo importado para o arquivo. Essa é uma biblioteca inicial que vêm junto da linguagem C, e que possui algumas funções de input e output de valores, como por exemplo o printf(). <br>
+Mais abaixo é definida a função principal como do tipo inteiro e recebendo void como parâmetro, o que significa que não recebe nenhum parâmetro. A função principal ser do tipo int é um padrão de código, onde o código irá retornar 0 se tudo correr bem ao rodar o programa, ou 1, se existir algum problema. <br>
+Logo abaixo a função printf() é utilizada, recebendo como parâmetros apenas uma String contendo o texto "Olá, mundo!\n" onde o \n é um termo especial que é interpretado como um comando para pular uma linha ao final do texto. De modo geral a função printf() imprime uma String no terminal.<br>
+Ao final da função main, é retornado o valor 0, assim confirmando que tudo correu bem. 
+Ou seja, podemos deduzir que ao rodar o programa o terminal imprimirá os dizeres dentro da função printf() como é visto no terminal abaixo.
+No terminal exemplificado, vemos que estamos dentro do diretório algoritmos/codigos/hello. Que pode ser visto nesse repositório. O comando ls lista os arquivos e pastas presentes no diretório em que estamos. Ou seja, existe apenas um arquivo chamado hello.c que é onde se encontra o código do exemplo. <br>
+Porém, para rodar esse código é necessário antes compila-lo para código de máquina, como dito em tópicos anteriores. make por sua vez, é um programa que automatiza exatamente esse processo, automaticamente criando um arquivo executável com o mesmo nome, ou seja, "hello" sem o ".c", como demonstrado na listagem posterior. Em seguida, basta rodar o código executável, que é feito a partir do ./, que é um jeito de dizer "Na pasta atual, execute o arquivo hello". e Logo abaixo pode-se ver o resultado como sendo o texto "Olá, mundo!" o clássico primeiro programa que todo desenvolvedor deve escrever e executar antes de todos os outros.
+Abaixo é apenas a linha de comando esperando a próxima instrução.
 
 
 ### Variáveis
