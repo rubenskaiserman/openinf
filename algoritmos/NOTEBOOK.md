@@ -360,7 +360,7 @@ Uma pequena nota de cautela, é que não se deve assustar com erros. Erros vão 
 Bom, vamos voltar em um dos exemplos apresentados anteriormente. Digamos que seja desejado calcular a área de um circulo a partir da inserção de um raio.
 Podemos por exemplo construir uma função que recebe um raio por parâmetro e retorna um double área do circulo.
 Vamos dividir esse problema em partes.
-### math`$ A = \pi \times r^2 $`
+### $ A = \pi \times r^2 $
 Portanto precisamos de pi. Sabemos que pi é uma constante cujo valor é aproximadamente 3.14159. Então devemos usar isso para calcular a área.
 ```
 # include <stdio.h>
