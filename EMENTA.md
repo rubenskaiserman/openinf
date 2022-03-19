@@ -1,72 +1,70 @@
 # Ementa
 
-## Algoritmos 
-> -  Como funciona um computador
-> -  O que são algoritmos
-> -  Variaveis
-> -  Condicionais
-> -  Loops
-> -  C
-> -  Exemplos práticos
-> -  Programação estruturada
-> -  Programação Funcional
-> -  Recursividade
-> -  Jogo da velha em C
-> -  A rosquinha giratória em C (Talvez)
-## Estruturas de dados
-> -  Tipos primitivos
-> -  Arrays
-> -  Manipulação de memória
-> -  Strings
-> -  Criação de novos tipos
-> -  Linked Lists
-> -  Sets
-> -  Maps/Libraries
-## Fundamentos da Web
-> -  O que é internet?
-> -  HTTP
-> -  Browser (O navegador)
-> -  HTML
-> -  Servidores
-## Programação Orientada a Objetos
-> -  C++ vs C
-> -  Atributos e Métodos
-> -  Herança e Polimorfismo
-> -  Bibliotecas, framworks e reuso de código
-> -  Introdução a desenvolvimento de jogos com C++?
-> -  Adicionar mais coisa depois
-## Banco de dados I
-> -  Por que usar um banco de dados?
-> -  A linguagem SQL
-> -  PostgreSQL vs MySQL vs SQLite
-> -  Criação de bancos de dados PostgreSQL
-> -  Inserção, Modificação, Remoção e Seleção de dados (CRUD)
-> -  Queries e Subqueries
-> -  Depois eu organizo melhor a parte de banco de dados
-## Desenvolvimento Web
-> -  HTML
-> -  CSS
-> -  JavaScript
-> -  jQuery e História do JavaScript/ECMAScript
-> -  TypeScript
-> -  Bootstrap e Bibliotecas Web
-> -  Php e Backend Web 
-## Linguagens e Técnicas de Programação
-> -  C++ vs Java; Orientação a Objetos
-> -  JavaScript vs Java; Tipagem Dinâmica vs Estática
-> -  Java vs Php; Objetivos de Linguagens
-> -  JavaScript vs Python; Paradigmas de Programação
-> -  Python vs C++; Linguagem Interpretada vs Compilada
-## Desenvolvimento Web Avançado
-> -  Python vs Php (Backend Web)
-> -  Conexão com banco de dados e segurança da informação
-> -  Frameworks web com Django e React
-> -  Colocar mais coisas depois
-## Projeto e desenvolvimento de sistemas
-> -  Levantamento de Requisitos
-> -  Planejamento
-> -  Modelagem e planejamento
-> -  Diagramas UML
-> -  Desenvolvimento Agile e Clean Code
-> -  Testes automatizados
-> -  Debugging e documentação
+- ## Algoritmos 
+    -  Como funciona um computador
+    -  O que são algoritmos
+    -  Variaveis e tipos primitivos
+    -  Condicionais
+    -  Loops
+    -  Python
+    -  Programação estruturada
+    -  Programação Funcional
+    -  Recursividade
+    -  Principais algoritmos (Talvez)
+    -  A rosquinha giratória (Talvez)
+- ## Estruturas de dados
+    -  Introdução a linguagem C
+    -  Linguagens compiladas vs Interpretadas
+    -  Linguagens de baixo nível vs linguagens de alto nível
+    -  Introdução a ponteiros e manipulação de memória
+    -  Tipos primitivos em C
+    -  Arrays e Strings em C
+    -  Criação de novos tipos em Python
+    -  Linked Lists, stacks, queues e etc
+    -  Algoritmos de sorting
+    -  Complexidade de algoritmos
+    -  Lists em python
+    -  Sets em python
+    -  Maps/Libraries
+- ## Programação Orientada a Objetos
+    -  Paradigmas e evolução da computação
+    -  Atributos e Métodos em Python
+    -  Herança e Polimorfismo em Python
+    -  Bibliotecas, frameworks e reuso de código em Python
+- ## Banco de dados
+    -  Por que usar um banco de dados?
+    -  Relacional vs Não relacional
+    -  A linguagem SQL
+    -  PostgreSQL vs MySQL vs SQLite
+    -  Criação de bancos de dados PostgreSQL
+    -  Inserção, Modificação, Remoção e Seleção de dados (CRUD)
+    -  Queries e Subqueries
+    -  Introdução a Big data e data science
+    -  Bancos de dados NoSQL
+    -  Integração de banco de dados com Python
+- ## Fundamentos da Web
+    -  Computação aplicada
+    -  O que é internet?
+    -  Introdução a Redes
+    -  HTTP
+    -  Browsers
+    -  HTML e CSS
+- ## Desenvolvimento Web
+    -  HTML e CSS Revisão
+    -  JavaScript
+    -  TypeScript
+    -  Bootstrap e Bibliotecas Web
+    -  client side vs server side
+    -  Introdução a Cloud
+    -  Python e Flask para backend web
+    -  Integração com banco de dados
+    -  Segurança da informação
+    -  Python com Django para backend Web 
+    -  Web applications
+- ## Projeto e desenvolvimento de sistemas
+    -  Levantamento de Requisitos
+    -  Planejamento e modelagem de sistemas
+    -  Modelagem de sistemas e diagramas UML
+    -  Desenvolvimento Agile e Clean Code
+    -  Testes automatizados
+    -  Debugging e documentação
