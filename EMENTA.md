@@ -1,4 +1,4 @@
-# Ementa
+# Planejamento
 
 - ## Algoritmos 
     -  Como funciona um computador
