@@ -14,7 +14,8 @@
     -  A rosquinha giratória (Talvez)
 - ## Estruturas de dados
     -  Introdução a linguagem C
-    -  Linguagens compiladas vs Interpretadas
+    -  Linguagens compiladas vs Linguagens interpretadas
+    -  Tipagem dinâmica vs Tipagem estática
     -  Linguagens de baixo nível vs linguagens de alto nível
     -  Introdução a ponteiros e manipulação de memória
     -  Tipos primitivos em C
