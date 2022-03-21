@@ -30,7 +30,9 @@
 - ## Programação Orientada a Objetos
     -  Paradigmas e evolução da computação
     -  Atributos e Métodos em Python
+    -  Introdução a Design Patterns
     -  Herança e Polimorfismo em Python
+    -  Outros design patterns?
     -  Bibliotecas, frameworks e reuso de código em Python
 - ## Banco de dados
     -  Por que usar um banco de dados?
