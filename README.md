@@ -1,4 +1,4 @@
-# tecnico-informatica
+# Informática Open Source
 
 Então, esse repositório vai ser uma apostila completa para todas as matérias de software ensinadas no curso técnico em informática do Instituto Federal do Rio de Janeiro.
 Basicamente o objetivo é que qualquer um, com tempo e paciência seja capaz de acessar esse repositório e obter todo o conhecimento que um curso técnico profissionalizante disponibiliza.
@@ -11,5 +11,5 @@ C deve ser usado pelo menos até estruturas de dados, e depois deve ser trocado 
 
 Essa apostila também deve cobrir conteúdos sobre Web e bancos de dados. Aqui no README.md eu devo colocar um grande sumário, então já vou começar.
 
-
-## - [Algoritmos](https://github.com/rubskaiserman/open-source-informatica/blob/main/algoritmos/NOTEBOOK.md)
+## - [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.ipynb)
+## - [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.ipynb)
