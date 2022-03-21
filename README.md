@@ -11,5 +11,5 @@ C deve ser usado pelo menos até estruturas de dados, e depois deve ser trocado 
 
 Essa apostila também deve cobrir conteúdos sobre Web e bancos de dados. Aqui no README.md eu devo colocar um grande sumário, então já vou começar.
 
-## - [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.ipynb)
-## - [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.ipynb)
+### - [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.ipynb)
+### - [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.ipynb)
