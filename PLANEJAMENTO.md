@@ -1,9 +1,14 @@
 # Planejamento
 
+- ## O computador
+    - O que é um computador
+    - Código binário e linguagens de programação
+    - Representação de estruturas com código binário
+    - bits, Bytes e unidades de informação
 - ## Algoritmos 
-    -  Como funciona um computador
     -  O que são algoritmos
-    -  Variaveis e tipos primitivos
+    -  Estrutura dos algoritmos
+    -  Entrada e saída de dados
     -  Condicionais
     -  Loops
     -  Python
