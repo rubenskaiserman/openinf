@@ -6,3 +6,4 @@
 - ## Programação do básico ao avançado por Geek University
 - ## Python Documentation on https://docs.python.org/3.10/
 - ## Inspirado por https://github.com/Nyandwi/machine_learning_complete
+- ## Gerações de linguagens de programação: https://en.wikipedia.org/wiki/Programming_language_generations
