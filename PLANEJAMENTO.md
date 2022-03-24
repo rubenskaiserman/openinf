@@ -7,7 +7,7 @@
     - bits, Bytes e unidades de informação
 - ## Algoritmos e Linguagens de programação I
     ***- O que são algoritmos***
-    - Como algoritmos são desenvolvidos
+    ***- Como algoritmos são desenvolvidos***
     - Váriaveis e tipos de dados
         - Tipos primitivos
         - Arrays/Lists
