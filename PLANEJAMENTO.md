@@ -5,74 +5,84 @@
     - Código binário e linguagens de programação
     - Representação de estruturas com código binário
     - bits, Bytes e unidades de informação
-- ## Algoritmos 
-    -  O que são algoritmos
-    -  Estrutura dos algoritmos
-    -  Entrada e saída de dados
-    -  Condicionais
-    -  Loops
-    -  Python
-    -  Programação estruturada
-    -  Programação Funcional
-    -  Recursividade
-    -  Principais algoritmos (Talvez)
-    -  A rosquinha giratória (Talvez)
+- ## Algoritmos e Linguagens de programação I
+    ***- O que são algoritmos***
+    - Como algoritmos são desenvolvidos
+    - Váriaveis e tipos de dados
+        - Tipos primitivos
+        - Arrays/Lists
+        - Strings
+    - Funções
+        - Parâmetros e Retorno
+        - Recursividade
+    - Condicionais
+        - Operadores binários/booleanos
+        - if, elif e else
+        - Operadores ternários
+    - Loops
+        - while
+        - for/foreach
+        - Outros loops
+    - Python
+        - Lists
+        - Tuples
+        - Sets
+        - Dictionaries
+    - Principais algoritmos (Talvez)
+    - A rosquinha giratória (Talvez)
 - ## Estruturas de dados
-    -  Introdução a linguagem C
-    -  Linguagens compiladas vs Linguagens interpretadas
-    -  Tipagem dinâmica vs Tipagem estática
-    -  Linguagens de baixo nível vs linguagens de alto nível
-    -  Introdução a ponteiros e manipulação de memória
-    -  Tipos primitivos em C
-    -  Arrays e Strings em C
-    -  Criação de novos tipos em Python
-    -  Linked Lists, stacks, queues e etc
-    -  Algoritmos de sorting
-    -  Complexidade de algoritmos
-    -  Lists em python
-    -  Sets em python
-    -  Maps/Libraries
+    - Linguagens de baixo nível e C
+    - Linguagens compiladas vs Linguagens interpretadas
+    - Tipagem dinâmica vs Tipagem estática
+    - Introdução a ponteiros e manipulação de memória
+    - Tipos de váriaveis em C
+    - O que são estruturas de dados
+    - ...
+    - Linked Lists, stacks, queues e etc
+    - ...
+    - Algoritmos de sorting
+    - Complexidade de algoritmos
 - ## Programação Orientada a Objetos
-    -  Paradigmas e evolução da computação
-    -  Atributos e Métodos em Python
-    -  Introdução a Design Patterns
-    -  Herança e Polimorfismo em Python
-    -  Outros design patterns?
-    -  Bibliotecas, frameworks e reuso de código em Python
+    - Paradigmas e evolução da computação
+    - Atributos e Métodos em Python
+    - Introdução a Design Patterns
+    - Herança e Polimorfismo em Python
+    - Outros design patterns?
+    - Bibliotecas, frameworks e reuso de código em Python
 - ## Banco de dados
-    -  Por que usar um banco de dados?
-    -  Relacional vs Não relacional
-    -  A linguagem SQL
-    -  PostgreSQL vs MySQL vs SQLite
-    -  Criação de bancos de dados PostgreSQL
-    -  Inserção, Modificação, Remoção e Seleção de dados (CRUD)
-    -  Queries e Subqueries
-    -  Introdução a Big data e data science
-    -  Bancos de dados NoSQL
-    -  Integração de banco de dados com Python
+    - Por que usar um banco de dados?
+    - Relacional vs Não relacional
+    - A linguagem SQL
+    - PostgreSQL vs MySQL vs SQLite
+    - Criação de bancos de dados PostgreSQL
+    - Inserção, Modificação, Remoção e Seleção de dados (CRUD)
+    - Queries e Subqueries
+    - Introdução a Big data e data science
+    - Bancos de dados NoSQL
+    - Integração de banco de dados com Python
 - ## Fundamentos da Web
-    -  Computação aplicada
-    -  O que é internet?
-    -  Introdução a Redes
-    -  HTTP
-    -  Browsers
-    -  HTML e CSS
+    - Computação aplicada
+    - O que é internet?
+    - Introdução a Redes
+    - HTTP
+    - Browsers
+    - HTML e CSS
 - ## Desenvolvimento Web
-    -  HTML e CSS Revisão
-    -  JavaScript
-    -  TypeScript
-    -  Bootstrap e Bibliotecas Web
-    -  client side vs server side
-    -  Introdução a Cloud
-    -  Python e Flask para backend web
-    -  Integração com banco de dados
-    -  Segurança da informação
-    -  Python com Django para backend Web 
-    -  Web applications
+    - HTML e CSS Revisão
+    - JavaScript
+    - TypeScript
+    - Bootstrap e Bibliotecas Web
+    - client side vs server side
+    - Introdução a Cloud
+    - Python e Flask para backend web
+    - Integração com banco de dados
+    - Segurança da informação
+    - Python com Django para backend Web 
+    - Web applications
 - ## Projeto e desenvolvimento de sistemas
-    -  Levantamento de Requisitos
-    -  Planejamento e modelagem de sistemas
-    -  Modelagem de sistemas e diagramas UML
-    -  Desenvolvimento Agile e Clean Code
-    -  Testes automatizados
-    -  Debugging e documentação
+    - Levantamento de Requisitos
+    - Planejamento e modelagem de sistemas
+    - Modelagem de sistemas e diagramas UML
+    - Desenvolvimento Agile e Clean Code
+    - Testes automatizados
+    - Debugging e documentação
