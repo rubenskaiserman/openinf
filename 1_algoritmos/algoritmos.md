@@ -36,3 +36,59 @@ Acima vemos escrito o exemplo citado anteriormente, escrever "Olá, mundo!" no t
 - Quinto, é feito um comando chamado printf(), que de algum modo imprime no terminal o texto que estiver escrito entre os parenteses. Dentris dos parenteses, nota-se que existe um padrão de escrever o texto entre aspas e é encerrado por um \n. Esse \n é um padrão interno dos textos que significa um sinal para quebrar a linha. Ou seja, o printf() não está apenas escrevendo "Olá, mundo!" no terminal, mas também pulando uma linha depois de fazer isso. Por fim, o comando é encerrado por ";", que é o modo de dizer ao C que a linha de comando chegou ao fim. Ou seja, aquele "return 0;" no final é algum tipo de linha de comando, dado que é encerrado com ";".
 
 - Sexto, e por fim sobre o espaçamento estranho. Nota-se que tudo que está entre "{" e "}" está espaçado para a direita. Isso é chamado de identação, utilizada para representar que o código está dentro do bloco, na linguagem C ele é utilizado para melhorar legibilidade do código tanto para a pessoa que o está escrevendo quanto para futuras pessoas que venham a o ler. Além de ser uma boa prática de escrita em linguagens como Python é a estrutura que define um bloco de código ao invés de "{" e "}".
+
+## Váriaveis e tipos de dados
+Ao escrever código existe a necessidade de fazer dados persistirem, ou seja registrar informações. Variaveis são resumidamente um apelido dado à um pedaço da memória que pode ser usado para registrar informações uteis para o algoritmo sendo rodado.
+
+### Tipos de dados
+Para salvar um dado na memória, é primeiro importante saber quanto espaço será necessário e como o dado será interpretado. Por isso são definidos os tipos de dados. Existêm 5 tipos de dados principais: inteiros, reais, caracteres, booleanos e vetores. Falaremos mais sobre eles logo a seguir. Porém é claro que tipos reais exigem no geral mais memória do que tipos inteiros, pois eles preciam registrar a mesma quantidade de informação que um inteiro somado aos valores decimais do número. Também é necessário para o computador saber que existe um valor decimal, o que não é obvio afinal tudo que ele está lendo é uma sequência de zeros e uns, até onde a máquina sabe aquilo poderia ser um vídeo de um unicornio girando um bombolê. A frente explicaremos sobre cada tipo e serão dados exemplos demonstrando cada um, assim ficarão mais claros os aspectos citados.
+
+### Char (Caracteres)
+Caracteres são tipos de dados que podem conter uma letra. Por exemplo 'a', 'b', 'c', '\n', '/' e todos os outros valores dentro da tabela ASCII. Existêm duas caracteristicas que devem ser enfatizadas sobre o tipo char. Ele é um tipo inteiro, porém seus valores são lidos como caracteres da tabela ascii, e seu espaço no armazenamento é exatamente 1 Byte, ou 8 bits justamente porque ele é feito para armazenar exatamente um caracter. 
+```
+./codigos/char/char.c
+
+#include <stdio.h>
+
+int main(void){
+
+    char a = 43;
+    char b = 'b';
+
+    return 0;
+}
+```
+Acima vemos um exemplo de instância de variável e atribuição de valor a mesma. No caso às mesmas. A variável de nome **a**, do tipo char, esté tendo o valor 43 sendo atribuído a ela, enquanto que a variavel **b**, também do tipo char, está tendo o valor 'b' sendo atribuído a ela. Porém, ambas as ações são possíeveis. Caso se confira na tabela ASCII, o número 43 representa o caracter "+", e portanto a variavel **a** está recebendo o valor "+". <br>
+Caso se modifique o código, é possível imprimir os valores no terminal e verificar, como será demonstrado a seguir
+```
+./codigos/char/char2.c
+
+#include <stdio.h>
+
+int main(void){
+
+    char a = 43;
+    char b = 'b';
+
+    printf("A variavel a é: %c\n", a); //Linha adicionada
+    printf("A variavel b é: %c\n", b); // Linha adicionada
+
+    return 0;
+}
+
+```
+```
+Terminal
+
+codigos/char$ make char2
+cc     char2.c   -o char2
+codigos/char$ ./char2
+A variavel a é: +
+A variavel b é: b
+codigos/char$
+```
+
+Passando rápido pelo que acabou de ser feito: Foram adicionadas duas linhas no código original, ambas são printfs, que como sabemos imprimem texto no terminal. Esses printfs estão imbuídos de um texto declarando que a variavel **a** e a variavel **b** têm ambas o valor %c. Porém esse %c é o que podemos chamar de placeholder, algo que diz onde determinado valor deve ser inserido. No caso o valor %c é um placeholder que também determina que o que estará ali é um caracter. Após o \n e uma "," é inserido o valor que deve substituir o placeholder, no caso as respectivas variaveis a e b. <br>
+Agora no terminal. Antes de rodar o código escrito, é necessário compilar ele, ou seja, traduzir para linguagem de máquina, e em alguns sistemas operacionais o make é um utilitário que automatiza essa tarefa. Falaremos mais sobre compilação quando nos aprofundarmos em linguagens de programação, por enquanto é apenas um detalhe. <br>
+Feita a compilação, para rodar o arquivo basta dizer ao terminal para rodar o arquivo presente no diretório atual(./) chamado char2, que é o nome dado a versão compilada do char2.c. Depois disso é mostrado é imprimido no terminal o que foi solicitado, demonstrando que o valor da variavel **a** é sim "+" e da variavel **b** é sim 'b'. <br> <br>
+Um ultimo detalhe a ser comentado sobre o tipo caracter, é que como tipo numérico, podem ser realizadas operações matemáticas com esse valor, assim como poderiam ser feitas com qualquer outro número, e esse é inclusive um jeito de por exemplo transformar uma letra minuscula em uma letra maiuscula. afinal 'b' = 98 e 'B' = 66, portanto 'B' = 'b' - 32. (Nesse caso =, é no sentido matemático e não como operador de atribuição)
