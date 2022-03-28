@@ -3,7 +3,7 @@
 ## Sumário
 
 - ### [O que são algoritmos](##O-que-são-algoritmos)
-- ### [Variaveis e Tipos de dados](##Variaveis-e-tipos-de-dados)
+- ### [Variaveis e Tipos de dados](##Variáveis-e-tipos-de-dados)
 - ### [Condicionais](##condicionais)
 - ### [Funções](##Funções)
 - ### [Loops](##Loops)
@@ -37,7 +37,7 @@ Acima vemos escrito o exemplo citado anteriormente, escrever "Olá, mundo!" no t
 
 - Sexto, e por fim sobre o espaçamento estranho. Nota-se que tudo que está entre "{" e "}" está espaçado para a direita. Isso é chamado de identação, utilizada para representar que o código está dentro do bloco, na linguagem C ele é utilizado para melhorar legibilidade do código tanto para a pessoa que o está escrevendo quanto para futuras pessoas que venham a o ler. Além de ser uma boa prática de escrita em linguagens como Python é a estrutura que define um bloco de código ao invés de "{" e "}".
 
-## Váriaveis e tipos de dados
+## Variáveis e tipos de dados
 Ao escrever código existe a necessidade de fazer dados persistirem, ou seja registrar informações. Variaveis são resumidamente um apelido dado à um pedaço da memória que pode ser usado para registrar informações uteis para o algoritmo sendo rodado.
 
 ### Tipos de dados
