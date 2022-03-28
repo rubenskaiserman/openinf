@@ -9,9 +9,9 @@
     - O que são algoritmos
     - Váriaveis e tipos de dados
         - Tipos primitivos, atribuição e memória
+            - char
             - int e variações
             - float e variações
-            - char
             - array/strings
         - Manipulação de memória e ponteiros
     - Condicionais

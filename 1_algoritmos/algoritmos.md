@@ -92,3 +92,54 @@ Passando rápido pelo que acabou de ser feito: Foram adicionadas duas linhas no 
 Agora no terminal. Antes de rodar o código escrito, é necessário compilar ele, ou seja, traduzir para linguagem de máquina, e em alguns sistemas operacionais o make é um utilitário que automatiza essa tarefa. Falaremos mais sobre compilação quando nos aprofundarmos em linguagens de programação, por enquanto é apenas um detalhe. <br>
 Feita a compilação, para rodar o arquivo basta dizer ao terminal para rodar o arquivo presente no diretório atual(./) chamado char2, que é o nome dado a versão compilada do char2.c. Depois disso é mostrado é imprimido no terminal o que foi solicitado, demonstrando que o valor da variavel **a** é sim "+" e da variavel **b** é sim 'b'. <br> <br>
 Um ultimo detalhe a ser comentado sobre o tipo caracter, é que como tipo numérico, podem ser realizadas operações matemáticas com esse valor, assim como poderiam ser feitas com qualquer outro número, e esse é inclusive um jeito de por exemplo transformar uma letra minuscula em uma letra maiuscula. afinal 'b' = 98 e 'B' = 66, portanto 'B' = 'b' - 32. (Nesse caso =, é no sentido matemático e não como operador de atribuição)
+
+### short, int e long (Inteiros)
+Valores inteiros são capazes de armazenar valores numéricos positivos e negativos, os diferentes tipos inteiros basicamente variam no aspecto de tamanho de armazenamento. 
+
+|  Tipo  |  Tamanho  |          Valor min to max            |
+|--------|-----------|--------------------------------------|
+|short| 2 Bytes | - 32,768 até  32,767 |
+| int | 4 Bytes | - 2,147,483,648 até 2,147,483,647
+| long| 8 bytes | - 9,223,372,036,854,775,808 até 9,223,372,036,854,775,807
+
+Normalmente utiliza-se apenas o int, pois não se necessita de números tão grandes quanto os suportados pelos long, e não é necessário se preocupar com desperdicios de memória para usar short, até porque memórias ram hoje em dia possuem bilhões de Bytes, economizar algumas dezenas ou até centenas de bytes verdadeiramente não causa melhoramentos de performance notaveis em quase nenhum caso.
+
+```
+./codigos/int/int.c
+
+#include <stdio.h>
+
+int main(void){
+    short num1 = -32768;
+    int num2 = 2147483647;
+    long num3 = 9223372036854775807;
+
+    printf("%d, %d, %ld\n", num1, num2, num3);
+
+    return 0;
+}
+```
+```
+Terminal 
+
+codigos/int$ make int
+cc     int.c   -o int
+codigos/int$ ./int
+-32768, 2147483647, 9223372036854775807
+codigos/int$ 
+```
+Ok, nesse exemplo podemos ver a instância de três variáveis inteiras, uma short contendo o menor valor permitido para ela, uma int contendo o maior valor permitido para ela e uma long também com o maior valor permitido a ela. Depois, podemos ver que esses valores estão sendo imprimidos no terminal através de um printf(). Só que dessa vez ele têm três placeholders, duas virgulas e um "quebra linha", e esses placeholders estão recebendo num1, num2 e num3 respectivamente, ou seja, short, int e long. short e int podem utilizar o mesmo placeholder %d para representar que ali haverá um valor inteiro, porém %ld é para representar que o local será utilizado por um inteiro muito grande, um long inteiro. <br>
+No terminal podemos observar que o programa foi compilado e rodado sem problemas. <br>
+Um pensamento válido é: "O que acontece se eu diminuir o valor short ou aumentar um dos outros dois?". A resposta para essa pergunta é, o código não sería compilado e iria apresentar um erro.
+```
+Terminal
+
+codigos/int$ make int
+cc     int.c   -o int
+int.c: In function ‘main’:
+int.c:6:17: warning: integer constant is so large that it is unsigned
+    6 |     long num3 = 9223372036854775808;
+      |                 ^~~~~~~~~~~~~~~~~~~
+codigos/int$ 
+```
+O erro apresentado acima demonstra o que acontece caso tente inserir a um long um valor maior do que seu máximo. "Aviso: O valor inteiro é tão grande que não pode ser salvo na variavel do tipo long" Foi uma tradução livre e mais gentil do que o que estava escrito mas o sentido é o mesmo.
