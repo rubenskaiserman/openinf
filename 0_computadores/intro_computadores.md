@@ -55,6 +55,3 @@ Ou seja, um HD com 1TB de armazenamento é capaz de armazenar aproximadamente 8,
 Esse é o final do caderno. Espero que tenham sido introduzidas todas as informações necessárias para inicio dos estudos em programação. 
 
 [De volta ao início](#introdução-a-computadores-eletrônicos)
-
-<img src="/cgi-bin/mathtex.cgi?f(x)=\int_{-\infty}^xe^{-t^2}dt"
- alt="" border=0 align="middle">
