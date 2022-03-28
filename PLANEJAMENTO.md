@@ -5,9 +5,8 @@
     - Código binário e linguagens de programação
     - Representação de estruturas com código binário
     - bits, Bytes e unidades de informação
-- ## Algoritmos e Linguagens de programação I
+- ## Algoritmos
     - O que são algoritmos
-    - Como algoritmos são desenvolvidos
     - Váriaveis e tipos de dados
         - Tipos primitivos, atribuição e memória
             - int e variações
