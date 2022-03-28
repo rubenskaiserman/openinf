@@ -1,6 +1,5 @@
 # Introdução a computadores eletrônicos
 #### Antes de falarmos sobre algoritmos, linguagens de programação, e desenvolvimento de software, é necessária uma breve explicação sobre como computadores funcionam, e principalmente o que eles são, afinal, eles são a base que nos permite escrever código.
-<br>
 
 ## O que é um computador
 Um computador é uma máquina que a partir de um conjunto de instruções, manipula dados a fim de gerar um resultado.<br>
@@ -56,3 +55,6 @@ Ou seja, um HD com 1TB de armazenamento é capaz de armazenar aproximadamente 8,
 Esse é o final do caderno. Espero que tenham sido introduzidas todas as informações necessárias para inicio dos estudos em programação. 
 
 [De volta ao início](#introdução-a-computadores-eletrônicos)
+
+<img src="/cgi-bin/mathtex.cgi?f(x)=\int_{-\infty}^xe^{-t^2}dt"
+ alt="" border=0 align="middle">
