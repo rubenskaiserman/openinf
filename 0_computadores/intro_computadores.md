@@ -1,7 +1,7 @@
 # Introdução a computadores eletrônicos
 #### Antes de falarmos sobre algoritmos, linguagens de programação, e desenvolvimento de software, é necessária uma breve explicação sobre como computadores funcionam, e principalmente o que eles são, afinal, eles são a base que nos permite escrever código.
 
-## O que é um computador
+## O que é um computadorgit config pull.rebase false
 Um computador é uma máquina que a partir de um conjunto de instruções, manipula dados a fim de gerar um resultado.<br>
 Os computadores que são utilizados no desenvolvimento de software, são os chamados computadores baseados em componentes eletrônicos. Por exemplo desktops e notebooks.
 <br>
