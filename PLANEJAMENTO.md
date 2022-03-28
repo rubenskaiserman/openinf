@@ -6,49 +6,53 @@
     - Representação de estruturas com código binário
     - bits, Bytes e unidades de informação
 - ## Algoritmos e Linguagens de programação I
-    ***- O que são algoritmos***
-    ***- Como algoritmos são desenvolvidos***
+    - O que são algoritmos
+    - Como algoritmos são desenvolvidos
     - Váriaveis e tipos de dados
-        - Tipos primitivos
-        - Arrays/Lists
-        - Strings
+        - Tipos primitivos, atribuição e memória
+            - int e variações
+            - float e variações
+            - char
+            - array/strings
+        - Manipulação de memória e ponteiros
+    - Condicionais
+        - Operadores binários/booleanos
+        - if e else
+        - Operadores ternários
+        - switch case
     - Funções
         - Parâmetros e Retorno
         - Recursividade
-    - Condicionais
-        - Operadores binários/booleanos
-        - if, elif e else
-        - Operadores ternários
     - Loops
         - while
         - for/foreach
         - Outros loops
-    - Python
-        - Lists
-        - Tuples
-        - Sets
-        - Dictionaries
     - Principais algoritmos (Talvez)
     - A rosquinha giratória (Talvez)
 - ## Estruturas de dados
-    - Linguagens de baixo nível e C
-    - Linguagens compiladas vs Linguagens interpretadas
-    - Tipagem dinâmica vs Tipagem estática
-    - Introdução a ponteiros e manipulação de memória
-    - Tipos de váriaveis em C
     - O que são estruturas de dados
     - ...
-    - Linked Lists, stacks, queues e etc
+    - Linked Lists e manipulação
+    - Stacks e manipulação
+    - binary tree e manipulação
+    - Hash Set e manipulação
+    - Hash Map e manipulação
     - ...
-    - Algoritmos de sorting
     - Complexidade de algoritmos
 - ## Programação Orientada a Objetos
-    - Paradigmas e evolução da computação
-    - Atributos e Métodos em Python
-    - Introdução a Design Patterns
-    - Herança e Polimorfismo em Python
-    - Outros design patterns?
-    - Bibliotecas, frameworks e reuso de código em Python
+    - O que é programação orientada a objetos
+    - C vs C++
+    - Atributos e métodos
+    - Herança e Polimorfismo
+    - Design Patterns
+- ## Linguagens e Tecnicas de programação
+    - Low level vs High Level
+    - Línguagens Compuladas vs Interpretadas
+    - Python vs C++
+    - Java e Desenvolvimento Mobile
+    - JavaScript e Desenvolvimento Web
+    - Php e Backend
+    - Python e Bibliotecas
 - ## Banco de dados
     - Por que usar um banco de dados?
     - Relacional vs Não relacional
@@ -58,7 +62,7 @@
     - Inserção, Modificação, Remoção e Seleção de dados (CRUD)
     - Queries e Subqueries
     - Introdução a Big data e data science
-    - Bancos de dados NoSQL
+    - Bancos de dados NoSQL com MongoDB
     - Integração de banco de dados com Python
 - ## Fundamentos da Web
     - Computação aplicada
@@ -70,7 +74,7 @@
 - ## Desenvolvimento Web
     - HTML e CSS Revisão
     - JavaScript
-    - TypeScript
+    - TypeScript e Node.js
     - Bootstrap e Bibliotecas Web
     - client side vs server side
     - Introdução a Cloud
