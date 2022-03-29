@@ -16,17 +16,17 @@ int main(void){
 ```
 Acima vemos escrito o exemplo citado anteriormente, escrever "Olá, mundo!" no terminal. Vamos quebrar aos poucos o que está escrito, mas uma sugestão válida para esse e para todos os exemplos que virão é, caso não compreenda uma palavra, pesquise a tradução dela, isso pode ajudar a decifrar o seu significado no código. 
 
-- Primeiro, no inicio está descrito o endereço relativo do arquivo onde o código está escrito nesse repositório. Ou seja, o arquivo hello.c, está dentro de uma pasta chamada hello, que por sua vez está dentro de uma pasta chamada codigos que por sua vez está no mesmo diretório que esse notebook. (Fique a vontade para checar e ter um ponto de vista gráfico)
+1. No inicio está descrito o endereço relativo do arquivo onde o código está escrito nesse repositório. Ou seja, o arquivo hello.c, está dentro de uma pasta chamada hello, que por sua vez está dentro de uma pasta chamada codigos que por sua vez está no mesmo diretório que esse notebook. (Fique a vontade para checar e ter um ponto de vista gráfico)
 
-- Segundo, podemos notar que o arquivo possui uma extensão ".c", ou seja, ele é um arquivo de código escrito na linguagem de programação C. 
+2. Podemos notar que o arquivo possui uma extensão ".c", ou seja, ele é um arquivo de código escrito na linguagem de programação C. 
 
-- Terceiro, Algo está sendo "incluido". Esse algo é uma biblioteca da línguagem C que nos permite fazer acesso a um conjunto de recursos externos. Falaremos mais sobre isso depois, no momento entenda apenas que é uma linha para que você possa usar comandos que não vêm direto com a línguagem.
+3. Algo está sendo "incluido". Esse algo é uma biblioteca da línguagem C que nos permite fazer acesso a um conjunto de recursos externos. Falaremos mais sobre isso depois, no momento entenda apenas que é uma linha para que você possa usar comandos que não vêm direto com a línguagem.
 
-- Quarto, existe algum tipo de estrutura definida, a qual por enquanto vamos ater como a definição do nosso algoritmo. Basicamente a línguagem C vai rodar tudo que estiver entre "int main(void){" e "return 0;}". Falaremos melhor sobre o que são todas essas coisas no tópico sobre funções.
+4. Existe algum tipo de estrutura definida, a qual por enquanto vamos ater como a definição do nosso algoritmo. Basicamente a línguagem C vai rodar tudo que estiver entre "int main(void){" e "return 0;}". Falaremos melhor sobre o que são todas essas coisas no tópico sobre funções.
 
-- Quinto, é feito um comando chamado printf(), que de algum modo imprime no terminal o texto que estiver escrito entre os parenteses. Dentris dos parenteses, nota-se que existe um padrão de escrever o texto entre aspas e é encerrado por um \n. Esse \n é um padrão interno dos textos que significa um sinal para quebrar a linha. Ou seja, o printf() não está apenas escrevendo "Olá, mundo!" no terminal, mas também pulando uma linha depois de fazer isso. Por fim, o comando é encerrado por ";", que é o modo de dizer ao C que a linha de comando chegou ao fim. Ou seja, aquele "return 0;" no final é algum tipo de linha de comando, dado que é encerrado com ";".
+5. É feito um comando chamado printf(), que de algum modo imprime no terminal o texto que estiver escrito entre os parenteses. Dentris dos parenteses, nota-se que existe um padrão de escrever o texto entre aspas e é encerrado por um \n. Esse \n é um padrão interno dos textos que significa um sinal para quebrar a linha. Ou seja, o printf() não está apenas escrevendo "Olá, mundo!" no terminal, mas também pulando uma linha depois de fazer isso. Por fim, o comando é encerrado por ";", que é o modo de dizer ao C que a linha de comando chegou ao fim. Ou seja, aquele "return 0;" no final é algum tipo de linha de comando, dado que é encerrado com ";".
 
-- Sexto, e por fim sobre o espaçamento estranho. Nota-se que tudo que está entre "{" e "}" está espaçado para a direita. Isso é chamado de identação, utilizada para representar que o código está dentro do bloco, na linguagem C ele é utilizado para melhorar legibilidade do código tanto para a pessoa que o está escrevendo quanto para futuras pessoas que venham a o ler. Além de ser uma boa prática de escrita em linguagens como Python é a estrutura que define um bloco de código ao invés de "{" e "}".
+6. Por fim, sobre o espaçamento estranho. Nota-se que tudo que está entre "{" e "}" está espaçado para a direita. Isso é chamado de identação, utilizada para representar que o código está dentro do bloco, na linguagem C ele é utilizado para melhorar legibilidade do código tanto para a pessoa que o está escrevendo quanto para futuras pessoas que venham a o ler. Além de ser uma boa prática de escrita em linguagens como Python é a estrutura que define um bloco de código ao invés de "{" e "}".
 
 ## Variáveis e tipos de dados
 Ao escrever código existe a necessidade de fazer dados persistirem, ou seja registrar informações. Variaveis são resumidamente um apelido dado à um pedaço da memória que pode ser usado para registrar informações uteis para o algoritmo sendo rodado.
@@ -182,5 +182,65 @@ E por fim, esse resultado é imprimido no terminal através de um printf. Esse c
 
 ### Booleanos
 Tipos booleanos são provavelmente os tipos de variáveis mais simples, ao mesmo tempo que mais utilizados no dia a dia. Esse tipo de dado pode representar apenas dois valores "True" ou "False", verdadeiro ou falso, normalmente são utilizados em expressões condicionais representando se uma afirmação é verdadeira ou falsa. <br>
-Na linguagem C em específico não existe um tipo de dados booleanos, ao invés disso eles são representados como 0 ou 1, sendo falso e verdadeiro respectivamente em um. <br>
+Na linguagem C em específico não existe um tipo de dados booleanos, ao invés disso eles são representados como números, onde 0 representa false e qualquer outro número representa true. <br>
 Falaremos mais sobre tipos booleans quando entrarmos nos próximos dois tópicos onde discutiremos sobre estruturas de decisão e operadores ternários e expressões booleanas.
+
+## Condicionais
+Estruturas condicionais são uma forma de "tomar decisões" no código. Em resumo é dado um valor booleano, se o valor for true, o código dentro do bloco condicional será rodado, se o valor for false, o bloco não será rodado.
+
+```
+#include <stdio.h>
+
+int main(void){
+    if(1) // if(valor booleano)
+    { // Código se o valor não for 0
+        printf("É verdadeiro\n");
+    }
+    else 
+    { //Código se o valor for 0
+        printf("É falso\n");
+    }
+    printf("Esse é rodado de qualquer forma\n"); // Código que é rodado independente do bloco
+
+    return 0;
+}
+```
+
+```
+Terminal
+
+codigos/condicional_1$ make condicional
+cc     condicional.c   -o condicional
+codigos/condicional_1$ ./condicional
+É verdadeiro
+Esse é rodado de qualquer forma
+codigos/condicional_1$ 
+```
+Acima vemos um exemplo comentado explicando sobre como funciona uma estrutura condicional. Em tese existe o inicio marcado por if() onde dentro dos parenteses é inserido um valor booleano, caso o valor booleano seja True(diferente de zero) o primeiro bloco de código é rodado. Porém, se o valor booleano inserido for false, o bloco de código do else que será rodado. O else é basicamente uma determinação do que fazer se o valor booleano não for verdadeiro <br>
+Depois dos blocos condicionais, é rodado um comando que não será rodado independente das condicionais, como esperado. <br>
+Um comentário válido a respeito do exemplo, é que ele apresenta comentários sobre o que está acontecendo em cada etapa iniciadas por "//" Essas barras representam que o que vêm depois delas naquela linha é um comentário e deve ser completamente ignorada pela máquina. São basicamente um meio de se comunicar com quem quer que esteja lendo o código fonte. <br> <br>
+
+Agora um pouco mais sobre a sintaxe da linguagem C. "{" e "}" como comentado no inicio desse caderno é um modo de definir um bloco para a máquina, basicamente se define que o conteúdo dentro das chaves está separado do restante do código ao redor dele. Pode-se interpretar o que está dentro das chaves como um grande comando composto por vários comandos. Portanto a sintaxe a seguir, mesmo pior escrita, é uma sintaxe válida.
+```
+./codigos/condicional_2/condicional.c
+
+#include <stdio.h>
+
+int main(void){
+    if(1) printf("É verdadeiro\n");
+    else printf("É falso\n");
+    printf("Esse é rodado de qualquer forma\n");
+
+    return 0;
+}
+```
+```
+Terminal
+
+codigos/condicional_2$ make condicional
+cc     condicional.c   -o condicional
+codigos/condicional_2$ ./condicional
+É verdadeiro
+Esse é rodado de qualquer forma
+codigos/condicional_2$ 
+```

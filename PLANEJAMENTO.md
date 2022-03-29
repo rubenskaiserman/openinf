@@ -15,8 +15,9 @@
             - array/strings
         - Manipulação de memória e ponteiros
     - Condicionais
+        - O que são condicionais
+        - if e else e else if
         - Operadores binários/booleanos
-        - if e else
         - Operadores ternários
         - switch case
     - Funções
