@@ -1,14 +1,5 @@
 # Algoritmos
 
-## Sumário
-
-- ### [O que são algoritmos](##O-que-são-algoritmos)
-- ### [Variaveis e Tipos de dados](##Variáveis-e-tipos-de-dados)
-- ### [Condicionais](##condicionais)
-- ### [Funções](##Funções)
-- ### [Loops](##Loops)
-
-
 ## O que são algoritmos
 De maneira direta, algoritmos são definidos como uma sequência de passos para a solução de um problema. <br>
 Computacionalmente, chamamos de algoritmos, sequências lógicas construídas a partir de uma línguagem de programação para a solução de um problema computavel.
