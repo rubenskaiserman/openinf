@@ -185,5 +185,11 @@ Primeiramente é instanciado uma variavel **const**ante, ou seja, que não pode 
 <img src="https://render.githubusercontent.com/render/math?math={\color{white}\pi}#gh-dark-mode-only">.
 Em seguida é instanciada mais uma variável do tipo double, chamada raio. <br> 
 Nota-se uma característica ainda não citada: variáveis não constantes podem ser instânciadas sem valor atribuído a elas, e seu valor pode ser atribuído posteriormente. Leia-se, você pode reservar um espaço na memória com aquela variável, e só ocupar esse espaço depois. Porém, isso não pode ser feito com variáveis constantes, pois por definição a const define que aquele espaço não pode ser modificado depois da criação. <br>
-A seguir no código é criada uma terceira variável do tipo double, que recebe o resultado da multiplicação entre PI e o quadrado do raio, consequêntemente a área do circulo. 
-### <img src="https://render.githubusercontent.com/render/math?math={A = \pi r^{2}}#gh-light-mode-only"> <img src="https://render.githubusercontent.com/render/math?math={\color{white}A = \pi r^{2}}#gh-dark-mode-only">.
+A seguir no código é criada uma terceira variável do tipo double, que recebe o resultado da multiplicação entre PI e o quadrado do raio, consequêntemente a área do circulo. <br>
+E por fim, esse resultado é imprimido no terminal através de um printf. Esse código em específico não está na melhor estrutura possível, por razões didáticas, mas voltaremos a esse mesmo algoritmo quando entrarmos no tópico sobre funções.
+
+
+### Booleanos
+Tipos booleanos são provavelmente os tipos de variáveis mais simples, ao mesmo tempo que mais utilizados no dia a dia. Esse tipo de dado pode representar apenas dois valores "True" ou "False", verdadeiro ou falso, normalmente são utilizados em expressões condicionais representando se uma afirmação é verdadeira ou falsa. <br>
+Na linguagem C em específico não existe um tipo de dados booleanos, ao invés disso eles são representados como 0 ou 1, sendo falso e verdadeiro respectivamente em um. <br>
+Falaremos mais sobre tipos booleans quando entrarmos nos próximos dois tópicos onde discutiremos sobre estruturas de decisão e operadores ternários.
