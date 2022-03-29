@@ -220,7 +220,7 @@ Acima vemos um exemplo comentado explicando sobre como funciona uma estrutura co
 Depois dos blocos condicionais, é rodado um comando que não será rodado independente das condicionais, como esperado. <br>
 Um comentário válido a respeito do exemplo, é que ele apresenta comentários sobre o que está acontecendo em cada etapa iniciadas por "//" Essas barras representam que o que vêm depois delas naquela linha é um comentário e deve ser completamente ignorada pela máquina. São basicamente um meio de se comunicar com quem quer que esteja lendo o código fonte. <br> <br>
 
-Agora um pouco mais sobre a sintaxe da linguagem C. "{" e "}" como comentado no inicio desse caderno é um modo de definir um bloco para a máquina, basicamente se define que o conteúdo dentro das chaves está separado do restante do código ao redor dele. Pode-se interpretar o que está dentro das chaves como um grande comando composto por vários comandos. Portanto a sintaxe a seguir, mesmo pior escrita, é uma sintaxe válida.
+Agora um pouco mais sobre a sintaxe da linguagem C. "{" e "}" como comentado no inicio desse caderno é um modo de definir um bloco para a máquina, basicamente se define que o conteúdo dentro das chaves está separado do restante do código ao redor dele. Pode-se interpretar o que está dentro das chaves como um grande comando composto por vários comandos. Portanto a sintaxe a seguir é uma sintaxe válida.
 ```
 ./codigos/condicional_2/condicional.c
 
@@ -244,3 +244,46 @@ codigos/condicional_2$ ./condicional
 Esse é rodado de qualquer forma
 codigos/condicional_2$ 
 ```
+
+Acima vemos que mesmo sem os blocos de código, o resultado é exatamente o mesmo. Porém, o código descrito está um pouco mal construído, é mais difícil de visualizar que a operação de printar per "É verdadeiro" pertence ao if. Mais a frente iremos falar sobre operadores ternários, que são uma maneira concisa de realizar pequenas operações condicionais. <br>
+Porém, compreender que blocos de código permite que se compreenda o código a seguir:
+
+```
+./codigos/condicional_3/condicional.c
+
+#include <stdio.h>
+
+int main(void){
+    if (3 > 5){
+        printf("3 é maior que 5... Estranho\n");
+    }
+    else if(3 == 2 + 1){
+        printf("Bom, 3 é sim igual a 3\n");
+    }
+    else 
+    {
+        printf("Agora você já está brincando...\n");
+    }
+
+    return 0;
+}
+```
+
+```
+codigos/condicional_3$ make condicional
+cc     condicional.c   -o condicional
+codigos/condicional_3$ ./condicional
+Bom, 3 é sim igual a 3
+codigos/condicional_3$ 
+```
+
+Acima existem algumas coisas a serem comentadas:
+1. Ao invés de determinar numéricamente se a afirmativa era verdadeira ou falsa, foi entregue uma expressão booleana para que o resultado viesse consequentemente. O que acontece é que o operador ">", verifica se o valor do lado esquerdo é maior do que o valor do lado direito, e se isso for verdade ele retorna 1, e se isso não for verdade ele retorna zero. Esse operador, assim como "<", ">=", "<=", "==" e "!=" são o que chamamos de operadores binários.
+    - "==" Retorna verdadeiro se ambos os lados forem iguais do contrário retorna falso
+    - "<" Retorna verdadeiro se o lado esquerdo tiver um valor menor que o lado direito, do contrário retorna falso
+    - ">" Retorna verdadeiro se o lado esquerdo tiver um valor maior do que o lado direito, do contrário retorna falso
+    - "<=" Retorna verdadeiro se o lado esquerdo tiver um valor menor ou igual ao lado direito, do contrario retorna falso
+    - ">=" Retorna verdadeiro se o lado esquerdo tiver um valor maior ou igual ao lado direito, do contrário retorna falso
+    - "!=" Retorna verdadeiro se o lado esquerdo tiver um valor não igual ao lado direito, do contrário retorna falso
+
+2. Pode-se notar a existência de uma divisão de possibilidades não binária. Leia-se, tem mais de duas opções. isso é feito porque o primeiro "else" ao invés rodar um comando ou um bloco, rodou um novo if, que por sua vez têm um diferente else. Essa concatenação de ifs  elses permite a criação de estruturas lógicas muito mais complexas, e é uma funcionalidade importante de se ter conhecimento sobre.
