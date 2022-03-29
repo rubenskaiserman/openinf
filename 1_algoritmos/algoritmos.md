@@ -192,4 +192,4 @@ E por fim, esse resultado é imprimido no terminal através de um printf. Esse c
 ### Booleanos
 Tipos booleanos são provavelmente os tipos de variáveis mais simples, ao mesmo tempo que mais utilizados no dia a dia. Esse tipo de dado pode representar apenas dois valores "True" ou "False", verdadeiro ou falso, normalmente são utilizados em expressões condicionais representando se uma afirmação é verdadeira ou falsa. <br>
 Na linguagem C em específico não existe um tipo de dados booleanos, ao invés disso eles são representados como 0 ou 1, sendo falso e verdadeiro respectivamente em um. <br>
-Falaremos mais sobre tipos booleans quando entrarmos nos próximos dois tópicos onde discutiremos sobre estruturas de decisão e operadores ternários.
+Falaremos mais sobre tipos booleans quando entrarmos nos próximos dois tópicos onde discutiremos sobre estruturas de decisão e operadores ternários e expressões booleanas.
