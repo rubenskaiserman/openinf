@@ -94,7 +94,7 @@ Feita a compilação, para rodar o arquivo basta dizer ao terminal para rodar o 
 Um ultimo detalhe a ser comentado sobre o tipo caracter, é que como tipo numérico, podem ser realizadas operações matemáticas com esse valor, assim como poderiam ser feitas com qualquer outro número, e esse é inclusive um jeito de por exemplo transformar uma letra minuscula em uma letra maiuscula. afinal 'b' = 98 e 'B' = 66, portanto 'B' = 'b' - 32. (Nesse caso =, é no sentido matemático e não como operador de atribuição)
 
 ### short, int e long (Inteiros)
-Valores inteiros são capazes de armazenar valores numéricos positivos e negativos, os diferentes tipos inteiros basicamente variam no aspecto de tamanho de armazenamento. 
+Valores inteiros são capazes de armazenar valores numéricos positivos e negativos que não contenham casas decimais. Os diferentes tipos inteiros variam no aspecto de tamanho de armazenamento. 
 
 |  Tipo  |  Tamanho  |          Valor min to max            |
 |--------|-----------|--------------------------------------|
@@ -143,3 +143,47 @@ int.c:6:17: warning: integer constant is so large that it is unsigned
 codigos/int$ 
 ```
 O erro apresentado acima demonstra o que acontece caso tente inserir a um long um valor maior do que seu máximo. "Aviso: O valor inteiro é tão grande que não pode ser salvo na variavel do tipo long" Foi uma tradução livre e mais gentil do que o que estava escrito mas o sentido é o mesmo.
+
+### float e double (reais)
+Os tipos reais diferem dos tipos inteiros na sua capacidade de suportar valores com casas decimais. Como consequência, eles são geralmente consomem maior armazenamento, por isso não é eficiênte representar todos os números utilizando esse tipo de dados, porém são necessários em muitos casos.
+
+|  Tipo  |  Tamanho  |          Valor min to max            | Precisão decimal |
+|--------|-----------|--------------------------------------|------------------|
+|float| 4 Bytes | 1.2E-38 to 3.4E+38 | 6 casas decimais |
+| double| 8 Bytes | 2.3E-308 to 1.7E+308 | 15 casas decimais |
+| long double | 10 bytes | 3.4E-4932 to 1.1E+4932 | 19 casas decimais |
+
+Os valores minimos e máximos estão reduzidos a fim de serem vísiveis, mas em resumo, são valores muito grandes ou muito pequenos. Uma característica notável é que o valor double possui o dobro de armazenamento que um valor float, daí seu nome "double".
+
+```
+./codigos/double/double.c
+
+#include <stdio.h>
+
+int main(void){
+    const double PI = 3.14159;
+    double raio;
+    raio = 4;
+    double area = PI * raio * raio; 
+
+    printf("A área do circulo é: %f\n", area);
+
+    return 0;
+}
+```
+```
+Terminal 
+
+codigos/double$ make double
+cc     double.c   -o double
+codigos/double$ ./double
+A área do circulo é: 50.265440
+codigos/double$ 
+```
+No exemplo acima podemos ver um uso de valores decimais em C usados para calcular a área de um circulo. <br>
+Primeiramente é instanciado uma variavel **const**ante, ou seja, que não pode ter seu valor modificado, do tipo double, chamada PI, que recebe uma aproximação do valor de <img src="https://render.githubusercontent.com/render/math?math={\pi}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\color{white}\pi}#gh-dark-mode-only">.
+Em seguida é instanciada mais uma variável do tipo double, chamada raio. <br> 
+Nota-se uma característica ainda não citada: variáveis não constantes podem ser instânciadas sem valor atribuído a elas, e seu valor pode ser atribuído posteriormente. Leia-se, você pode reservar um espaço na memória com aquela variável, e só ocupar esse espaço depois. Porém, isso não pode ser feito com variáveis constantes, pois por definição a const define que aquele espaço não pode ser modificado depois da criação. <br>
+A seguir no código é criada uma terceira variável do tipo double, que recebe o resultado da multiplicação entre PI e o quadrado do raio, consequêntemente a área do circulo. 
+### <img src="https://render.githubusercontent.com/render/math?math={A = \pi r^{2}}#gh-light-mode-only"> <img src="https://render.githubusercontent.com/render/math?math={\color{white}A = \pi r^{2}}#gh-dark-mode-only">.
