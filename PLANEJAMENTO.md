@@ -20,7 +20,7 @@
         - [x] Operadores ternários
         - [x] switch case
     - Funções
-        [x] Parâmetros e Retorno
+        - [x] Parâmetros e Retorno
         - Recursividade
     - Loops
         - while
