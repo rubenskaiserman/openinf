@@ -1,10 +1,10 @@
 # Planejamento
 
 - ## O computador
-    - O que é um computador
-    - Código binário e linguagens de programação
-    - Representação de estruturas com código binário
-    - bits, Bytes e unidades de informação
+    - [x] O que é um computador
+    - [x] Código binário e linguagens de programação
+    - [x] Representação de estruturas com código binário
+    - [x] bits, Bytes e unidades de informação
 - ## Algoritmos
     - [x] O que são algoritmos
     - [x] Váriaveis e tipos de dados
