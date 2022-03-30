@@ -420,3 +420,146 @@ else {
 ```
 Portanto switch é uma opção válida para operações repetitivas como essa. Em alguns casos essa estrutura é considerada mais legível e portanto mais fácil de se realizar manutenção no longo termo. <br>
 Contudo, algumas linguagens como Python e Rust não têm suporte ao switch case por ser considerado de certo modo desnecessário devido a possibilidade da utilização de else ifs, portanto o considerando redundante. Todavia, o conhecimento a respeito dessa estrutura ainda é importanta dado que pode ser encontrada em código legado, ou usada em código novo de línguagens que suportem esse tipo de estrutura.
+
+## Funções
+Funções, resumidamente, podem ser vistas como blocos de código com nome. Assim como variáveis, porém ao invés de guardar dados, guardam instruções. A organização do código através da separação em diversas funções é um método eficaz para a melhor legibilidade e organização do código. <br>
+Escrever o código linearmente se torna cada vez mais inviável conforme o tamanho do código cresce, por isso foi desenvolvida essa metodologia, onde você pode escrever um código separado que será "chamado" em algum momento. <br>
+As funções possuem duas caracteristicas principais:
+1. Parâmetros: basicamente variáveis externas a função que são passadas para ela, a fim de que a partir delas a função realize uma série de operações.
+2. Retorno: Essa é uma caracteristica presente na maioria das funções, retorno é basicamente o resultado que a função gera, sendo esse valor o definidor do tipo da função. Por exemplo, uma função que retorna um valor inteiro, é uma função do tipo int, uma função que retorna um caracter, é uma função do tipo caracter, e assim por diante.<br>
+
+A linguagem C, que temos utilizado até agora, é intrinsecamente uma línguagem funcional, o que significa que todo o funcionamento dela gira em torno de funções. Tanto é que em todos os exemplos foram utilizadas funções. 
+```
+int main(){
+
+    return 0;
+}
+```
+Acima vemos uma estrutura presente em todos os exemplos. Essa é a função main. Ela basicamente define o escopo do algoritmo. Analizando a estrutura podemos ter uma melhor noção de como são algoritmos de modo geral.
+Como dito antes, funções são blocos de código com nomes, portanto nada mais justo do que definir o nome da função e em seguida definir o bloco de código ao que ela se refere.
+```
+main(){
+
+}
+```
+Dentro de todas as funções main escritas até o momento está presente um comando em comum.
+```
+return 0;
+```
+O que o return faz, é retornar o resultado da função. Porém, a função main() de um código C não será chamada em nenhuma outra parte do código, portanto o retorno dela não é utilizado, é apenas uma convenção retornar 0 se o código faz como é esperado, e retornar 1 se o código fizer algo de errado. Como até o momento não houve possibilidade do código dar errado, com exceção de erro do programador, até então apenas retornamos 0. <br>
+Mas de modo geral, em toda função que gera retorno, é necessário utilizar o comando return, e determinar o valor que será retornado. <br>
+Mais uma coisa importante sobre o return, é que ele determina o tipo da função. A função main por exemplo, retorna 0 ou 1, e portanto, ela se caracteriza como uma função do tipo int.
+```
+int main(){
+    return 0;
+}
+```
+Por isso int é escrito antes do nome, da mesma forma que se faz com variáveis. <br>
+
+Porém, existe uma parte faltando no código acima. Em todos os códigos escritos até aqui a estrutura era exatamente como mostrada abaixo:
+```
+int main(void){
+    return 0;
+}
+```
+O "void" entre os parenteses, é um sinal para a função de que não serão passados parâmetros, ou seja, não serão entregues variáveis externas para serem utilizadas dentro da função. Porém, na maioria das vezes serão utilizadas, como por exemplo em uma função do tipo inteiro que realize a soma entre dois inteiros **a** e **b**.
+```
+./codigos/soma/soma.c -linha 3
+
+int soma(int a, int b) {
+    return a + b
+}
+```
+E se quisermos usar essa função, para por exemplo calcular a soma de 2 e 3, podemos chama-la dentro da função main e printar o resultado.
+
+```
+./codigos/soma/soma.c -linha 8
+
+int main(void){
+    int s = soma(2, 3);
+    printf("Soma de 2, e 3: %d\n", s);
+
+    return 0;
+}
+```
+```
+Terminal
+
+codigos/soma$ make soma
+cc     soma.c   -o soma
+codigos/soma$ ./soma
+Soma de 2, e 3: 5
+codigos/soma$ 
+```
+Acima podemos notar algumas caracteristicas das funções. 
+1. Ao chama-las, não é necessário declarar seu tipo, apenas o nome e seus parâmetros entre parenteses.
+2. O resultado(retorno) de funções pode ser registrado em variáveis, desde que essas variáveis sejam do mesmo tipo que a função.
+3. é necessário declarar o tipo dos parâmetros durante a construção da função. Portanto o valor entregue deve estar de acordo com o declarado na instância da função.
+4. É possível chamar uma função dentro de outra função, assim como foi feito chamando a função soma, dentro da função main, mesmo uma estando fora da outra.
+
+
+Algumas notas importantes sobre funções são:
+1. O chamado de funções são definidas por:
+```
+nomeDaFunção()
+```
+Ou seja, mesmo que a função não receba parâmetros, os parenteses devem estar inclusos no chamado da função. 
+
+2. Funções podem não ter retorno, são as chamadas funções void, ou funções vazias. 
+```
+./codigos/funcaoVoid/void.c
+
+#include <stdio.h>
+
+void funcaoSemRetorno(void){
+    printf("Eu não tenho retorno\n");
+}
+
+int main(void){
+    funcaoSemRetorno();
+
+    return 0;
+}
+```
+```
+Terminal
+
+codigos/funcaoVoid$ make void
+cc     void.c   -o void
+codigos/funcaoVoid$ ./void
+Eu não tenho retorno
+codigos/funcaoVoid$ 
+```
+Portanto, funções podem ter utilidade mesmo que não gerem nenhum retorno. Funções que mostram imagem na tela por exemplo, não necessáriamente precisam retornar nenhum valor, mas mesmo assim geram um resultado desejavel.
+
+3. Funções devem ser instanciadas antes de seu chamado, ou seja, antes de chamar a função, ela deve ser escrita, como por exemplo a função soma, que é descrita antes de seu chamado na função main. Porém, é possível definir uma função depois de sua instância. Como mostrado no exemplo abaixo de uma função que calcula a área de um círculo:
+```
+./codigos/circulo/circulo.c
+
+#include <stdio.h>
+
+double areaCirculo(double r);
+
+int main(void){
+    double area = areaCirculo(2);
+    printf("Area: %f\n", area);
+
+    return 0;
+}
+
+double areaCirculo(double r){
+    const double PI = 3.14159;
+    return PI * r * r;
+}
+```
+```
+Terminal
+
+codigos/circulo$ make circulo
+cc     circulo.c   -o circulo
+/circulo$ ./circulo
+Area: 12.566360
+codigos/circulo$ 
+```
+Acima podemos ver que é possível chamar uma função antes da definição do escopo dela, desde ela tenha sido declarada antes. Ou seja, é como se fosse possível avisar ao computador que em algum momento abaixo no código a função será definida.
+

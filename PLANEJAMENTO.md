@@ -20,13 +20,15 @@
         - [x] Operadores ternários
         - [x] switch case
     - Funções
-        - Parâmetros e Retorno
+        [x] Parâmetros e Retorno
         - Recursividade
     - Loops
         - while
         - for/foreach
         - Outros loops
     - Principais algoritmos (Talvez)
+        - Palindrom Number (leetcode 9)
+
     - A rosquinha giratória (Talvez)
 - ## Estruturas de dados
     - O que são estruturas de dados
