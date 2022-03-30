@@ -13,13 +13,12 @@
             - [x] int e variações
             - [x] float e variações
             - [x] booleanos
-            - array/strings
-    - Condicionais
+    - [x] Condicionais
         - [x] O que são condicionais
         - [x] if e else e else if
         - [x] Operadores binários/booleanos
-        - Operadores ternários
-        - switch case
+        - [x] Operadores ternários
+        - [x] switch case
     - Funções
         - Parâmetros e Retorno
         - Recursividade
@@ -33,11 +32,18 @@
     - O que são estruturas de dados
     - Manipulação de memória e ponteiros
     - ...
+    - Arrays e Strings
+        - Adicionar valor a array ou string
+        - Remover valor do array ou string
+        - Análisar array ou string
+        - char[] upperCase(char[] str) e char[] lowerCase(char[] str)
     - Linked Lists e manipulação
     - Stacks e manipulação
+        - Valid Parenthesis question (LeetCode 20)
     - binary tree e manipulação
-    - Hash Set e manipulação
-    - Hash Map e manipulação
+        - Binary Search
+    - HashSet e manipulação
+    - HashMap e manipulação
     - ...
     - Complexidade de algoritmos
 - ## Programação Orientada a Objetos
@@ -91,3 +97,4 @@
     - Desenvolvimento Agile e Clean Code
     - Testes automatizados
     - Debugging e documentação
+statement is basically nested if statement, though it does not support expression, it matches an int, string, or boolean data type variable with a given set of cases that are provided by the programmer. It is mainly used in a menu-driven program where the user selects which function they want to run. A switch case in Rust is achieved by the keyword match

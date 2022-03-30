@@ -289,3 +289,134 @@ No código acima existem duas coisas a serem comentadas:
 
 2. Pode-se notar a existência de uma divisão de possibilidades não binária. Leia-se, tem mais de duas opções. isso é feito porque o primeiro "else" ao invés rodar um comando ou um bloco, rodou um novo if, que por sua vez têm um diferente else. Essa concatenação de ifs  elses permite a criação de estruturas lógicas muito mais complexas, e é uma funcionalidade importante de se ter conhecimento sobre.
 
+### Operador ternário
+Em casos de operações binárias, ou seja, dada uma afirmativa, se ela for verdadeira, realize uma ação e caso seja falsa, execute outra ação, existe uma estrutura mais comprimida para tal formulação. A chamada operação ternária, que leva esse nome pois existêm três partes na operação:
+1. Afirmativa: Um valor booleano
+2. Operação caso o valor seja True
+3. Operação caso o valor seja False
+
+```
+./codigos/ternario/ternario.c
+
+#include <stdio.h>
+
+int main(void){
+    2 > 1 ? printf("Verdadeiro\n") : printf("Falso\n");
+
+    return 0;
+}
+```
+
+```
+Terminal
+
+codigos/ternario$ make ternario
+cc     ternario.c   -o ternario
+codigos/ternario$ ./ternario
+Verdadeiro
+codigos/ternario$ 
+``` 
+
+Acima vemos um código que verifica se 2 > 1, e se essa afirmativa for verdadeira, imprime no terminal o texto "Verdadeiro", e se essa afirmativa for falsa, imrpime no terminal "Falso". <br>
+Como é de se esperar o cvalor "Verdadeiro" é imprido no terminal. Com isso podemos definir que o formato de um operador ternário é:
+```
+condição ? operação caso verdadeiro : operação caso falso
+```
+O valor de operadores ternários vêm na redução do espaço consumido pelo código, e são uma excelente opção para realizar ações simples com base em operações booleanas. Contudo, estruturas que possuem maior complexidade são mais legíveis em estruturas if/else comuns. portanto, operadores ternários devem ser usados com cautela, apenas quando irão diminuir o código sem causar o detrimento da legibilidade do código.
+
+### Switch Case
+Switch case é outra estrutura de decisões. Porém, opostamente ao operador ternário, ela é dirigida para situações onde existe uma série de possibilidades catalogadas. Por exemplo, para um menu de opções, cada opção que o usuário pode selecionar é um caso diferente para o switch.
+
+```
+./codigos/switch/case.c
+
+#include <stdio.h>
+
+int main(void){
+    int variavel;
+
+    variavel = 3;
+    switch (variavel)
+    {
+    case 1 :
+        printf("O valor é: 1\n");
+        break;
+    case 2 :
+        printf("O valor é: 2\n");
+        break;
+    case 3 :
+        printf("O valor é: 3\n");
+        break;
+    case 4 :
+        printf("O valor é: 4\n");
+        break;
+    default:
+        printf("O valor não é nem 1, nem 2, nem 3 e nem 4\n");
+        break;
+    }
+}
+```
+
+```
+Terminal
+
+codigos/switch$ make case
+cc     case.c   -o case
+kaiserman@dev:~/Dev/informatica_open_source/1_algoritmos/codigos/switch$ ./case
+O valor é: 3
+kaiserman@dev:~/Dev/informatica_open_source/1_algoritmos/codigos/switch$ 
+```
+Acima vemos uma estrutura switch construída. E a partir dela podemos perceber sua estrutura:
+```
+switch(valor) {
+    case x:
+        operação;
+        operação;
+        ...
+        break;
+    case y:
+        operação;
+        operação;
+        ...
+        break;
+    case z:
+        operação;
+        operação;
+        ...
+        break;
+    ...
+    default:
+        operação;
+        operação;
+        ...
+        break;
+}
+```
+Então a partir dessa estrutura podemos determinar que o switch recebe uma "variavel" externa, e cada possibilidade de valor para ela é representada por um case, e por fim, caso nenhuma das possibilidades seja satisfeita o caso padrão é chamado(default). <br>
+Uma versão dessa estrutura usando if/else sería menos direta, como podemos ver abaixo:
+
+```
+if(valor == x){
+    operação;
+    operação;
+    ...
+} 
+else if(valor == y) {
+    operação;
+    operação;
+    ...
+} 
+else if(valor == z) {
+    operação;
+    operação;
+    ...
+}
+...
+else {
+    operação;
+    operação;
+    ...
+}
+```
+Portanto switch é uma opção válida para operações repetitivas como essa. Em alguns casos essa estrutura é considerada mais legível e portanto mais fácil de se realizar manutenção no longo termo. <br>
+Contudo, algumas linguagens como Python e Rust não têm suporte ao switch case por ser considerado de certo modo desnecessário devido a possibilidade da utilização de else ifs, portanto o considerando redundante. Todavia, o conhecimento a respeito dessa estrutura ainda é importanta dado que pode ser encontrada em código legado, ou usada em código novo de línguagens que suportem esse tipo de estrutura.
