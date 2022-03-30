@@ -21,7 +21,7 @@
         - [x] switch case
     - Funções
         - [x] Parâmetros e Retorno
-        - Recursividade
+        - [ ] Recursividade
     - Loops
         - while
         - for/foreach
