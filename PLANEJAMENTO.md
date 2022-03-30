@@ -19,84 +19,84 @@
         - [x] Operadores binários/booleanos
         - [x] Operadores ternários
         - [x] switch case
-    - Funções
+    - [ ] Funções
         - [x] Parâmetros e Retorno
         - [ ] Recursividade
-    - Loops
-        - while
-        - for/foreach
-        - Outros loops
-    - Principais algoritmos (Talvez)
-        - Palindrom Number (leetcode 9)
+    - [ ] Loops
+        - [ ] while
+        - [ ] for/foreach
+        - [ ] Outros loops
+    - [ ] Principais algoritmos (Talvez)
+        - [ ] Palindrom Number (leetcode 9)
 
-    - A rosquinha giratória (Talvez)
-- ## Estruturas de dados
-    - O que são estruturas de dados
-    - Manipulação de memória e ponteiros
-    - ...
-    - Arrays e Strings
-        - Adicionar valor a array ou string
-        - Remover valor do array ou string
-        - Análisar array ou string
-        - char[] upperCase(char[] str) e char[] lowerCase(char[] str)
-    - Linked Lists e manipulação
-    - Stacks e manipulação
-        - Valid Parenthesis question (LeetCode 20)
-    - binary tree e manipulação
-        - Binary Search
-    - HashSet e manipulação
-    - HashMap e manipulação
-    - ...
-    - Complexidade de algoritmos
-- ## Programação Orientada a Objetos
-    - O que é programação orientada a objetos
-    - C vs C++
-    - Atributos e métodos
-    - Herança e Polimorfismo
-    - Design Patterns
-- ## Linguagens e Tecnicas de programação
-    - Low level vs High Level
-    - Línguagens Compuladas vs Interpretadas
-    - Python vs C++
-    - Java e Desenvolvimento Mobile
-    - JavaScript e Desenvolvimento Web
-    - Php e Backend
-    - Python e Bibliotecas
-- ## Banco de dados
-    - Por que usar um banco de dados?
-    - Relacional vs Não relacional
-    - A linguagem SQL
-    - PostgreSQL vs MySQL vs SQLite
-    - Criação de bancos de dados PostgreSQL
-    - Inserção, Modificação, Remoção e Seleção de dados (CRUD)
-    - Queries e Subqueries
-    - Introdução a Big data e data science
-    - Bancos de dados NoSQL com MongoDB
-    - Integração de banco de dados com Python
-- ## Fundamentos da Web
-    - Computação aplicada
-    - O que é internet?
-    - Introdução a Redes
-    - HTTP
-    - Browsers
-    - HTML e CSS
-- ## Desenvolvimento Web
-    - HTML e CSS Revisão
-    - JavaScript
-    - TypeScript e Node.js
-    - Bootstrap e Bibliotecas Web
-    - client side vs server side
-    - Introdução a Cloud
-    - Python e Flask para backend web
-    - Integração com banco de dados
-    - Segurança da informação
-    - Python com Django para backend Web 
-    - Web applications
-- ## Projeto e desenvolvimento de sistemas
-    - Levantamento de Requisitos
-    - Planejamento e modelagem de sistemas
-    - Modelagem de sistemas e diagramas UML
-    - Desenvolvimento Agile e Clean Code
-    - Testes automatizados
-    - Debugging e documentação
+    - [ ] A rosquinha giratória (Talvez)
+- [ ] ## Estruturas de dados
+    - [ ] O que são estruturas de dados
+    - [ ] Manipulação de memória e ponteiros
+    - [ ] ...
+    - [ ] Arrays e Strings
+        - [ ] Adicionar valor a array ou string
+        - [ ] Remover valor do array ou string
+        - [ ] Análisar array ou string
+        - [ ] char[] upperCase(char[] str) e char[] lowerCase(char[] str)
+    - [ ] Linked Lists e manipulação
+    - [ ] Stacks e manipulação
+        - [ ] Valid Parenthesis question (LeetCode 20)
+    - [ ] binary tree e manipulação
+        - [ ] Binary Search
+    - [ ] HashSet e manipulação
+    - [ ] HashMap e manipulação
+    - [ ] ...
+    - [ ] Complexidade de algoritmos
+- [ ] ## Programação Orientada a Objetos
+    - [ ] O que é programação orientada a objetos
+    - [ ] C vs C++
+    - [ ] Atributos e métodos
+    - [ ] Herança e Polimorfismo
+    - [ ] Design Patterns
+- [ ] ## Linguagens e Tecnicas de programação
+    - [ ] Low level vs High Level
+    - [ ] Línguagens Compuladas vs Interpretadas
+    - [ ] Python vs C++
+    - [ ] Java e Desenvolvimento Mobile
+    - [ ] JavaScript e Desenvolvimento Web
+    - [ ] Php e Backend
+    - [ ] Python e Bibliotecas
+- [ ] ## Banco de dados
+    - [ ] Por que usar um banco de dados?
+    - [ ] Relacional vs Não relacional
+    - [ ] A linguagem SQL
+    - [ ] PostgreSQL vs MySQL vs SQLite
+    - [ ] Criação de bancos de dados PostgreSQL
+    - [ ] Inserção, Modificação, Remoção e Seleção de dados (CRUD)
+    - [ ] Queries e Subqueries
+    - [ ] Introdução a Big data e data science
+    - [ ] Bancos de dados NoSQL com MongoDB
+    - [ ] Integração de banco de dados com Python
+- [ ] ## Fundamentos da Web
+    - [ ] Computação aplicada
+    - [ ] O que é internet?
+    - [ ] Introdução a Redes
+    - [ ] HTTP
+    - [ ] Browsers
+    - [ ] HTML e CSS
+- [ ] ## Desenvolvimento Web
+    - [ ] HTML e CSS Revisão
+    - [ ] JavaScript
+    - [ ] TypeScript e Node.js
+    - [ ] Bootstrap e Bibliotecas Web
+    - [ ] client side vs server side
+    - [ ] Introdução a Cloud
+    - [ ] Python e Flask para backend web
+    - [ ] Integração com banco de dados
+    - [ ] Segurança da informação
+    - [ ] Python com Django para backend Web 
+    - [ ] Web applications
+- [ ] ## Projeto e desenvolvimento de sistemas
+    - [ ] Levantamento de Requisitos
+    - [ ] Planejamento e modelagem de sistemas
+    - [ ] Modelagem de sistemas e diagramas UML
+    - [ ] Desenvolvimento Agile e Clean Code
+    - [ ] Testes automatizados
+    - [ ] Debugging e documentação
 statement is basically nested if statement, though it does not support expression, it matches an int, string, or boolean data type variable with a given set of cases that are provided by the programmer. It is mainly used in a menu-driven program where the user selects which function they want to run. A switch case in Rust is achieved by the keyword match
