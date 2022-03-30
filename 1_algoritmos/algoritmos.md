@@ -6,6 +6,7 @@ Computacionalmente, chamamos de algoritmos, sequências lógicas construídas a 
 Como por exemplo, escrever "Olá, mundo!" no terminal.
 ```
 ./codigos/hello/hello.c
+
 #include <stdio.h>
 
 int main(void){
@@ -277,7 +278,7 @@ Bom, 3 é sim igual a 3
 codigos/condicional_3$ 
 ```
 
-Acima existem algumas coisas a serem comentadas:
+No código acima existem duas coisas a serem comentadas:
 1. Ao invés de determinar numéricamente se a afirmativa era verdadeira ou falsa, foi entregue uma expressão booleana para que o resultado viesse consequentemente. O que acontece é que o operador ">", verifica se o valor do lado esquerdo é maior do que o valor do lado direito, e se isso for verdade ele retorna 1, e se isso não for verdade ele retorna zero. Esse operador, assim como "<", ">=", "<=", "==" e "!=" são o que chamamos de operadores binários.
     - "==" Retorna verdadeiro se ambos os lados forem iguais do contrário retorna falso
     - "<" Retorna verdadeiro se o lado esquerdo tiver um valor menor que o lado direito, do contrário retorna falso
@@ -287,3 +288,4 @@ Acima existem algumas coisas a serem comentadas:
     - "!=" Retorna verdadeiro se o lado esquerdo tiver um valor não igual ao lado direito, do contrário retorna falso
 
 2. Pode-se notar a existência de uma divisão de possibilidades não binária. Leia-se, tem mais de duas opções. isso é feito porque o primeiro "else" ao invés rodar um comando ou um bloco, rodou um novo if, que por sua vez têm um diferente else. Essa concatenação de ifs  elses permite a criação de estruturas lógicas muito mais complexas, e é uma funcionalidade importante de se ter conhecimento sobre.
+

@@ -6,18 +6,18 @@
     - Representação de estruturas com código binário
     - bits, Bytes e unidades de informação
 - ## Algoritmos
-    - O que são algoritmos
-    - Váriaveis e tipos de dados
-        - Tipos primitivos, atribuição e memória
-            - char
-            - int e variações
-            - float e variações
+    - [x] O que são algoritmos
+    - [x] Váriaveis e tipos de dados
+        - [x] Tipos primitivos, atribuição e memória
+            - [x] char
+            - [x] int e variações
+            - [x] float e variações
+            - [x] booleanos
             - array/strings
-        - Manipulação de memória e ponteiros
     - Condicionais
-        - O que são condicionais
-        - if e else e else if
-        - Operadores binários/booleanos
+        - [x] O que são condicionais
+        - [x] if e else e else if
+        - [x] Operadores binários/booleanos
         - Operadores ternários
         - switch case
     - Funções
@@ -31,6 +31,7 @@
     - A rosquinha giratória (Talvez)
 - ## Estruturas de dados
     - O que são estruturas de dados
+    - Manipulação de memória e ponteiros
     - ...
     - Linked Lists e manipulação
     - Stacks e manipulação
