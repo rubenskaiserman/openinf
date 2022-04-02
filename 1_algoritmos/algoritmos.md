@@ -756,4 +756,33 @@ Como pode-se ver, loops têm uma estrutura mais bem definida que permite muitas 
 No próximo módulo, falaremos sobre estruturas de dados, onde serão utilizadas todas as ferramentas comentadas nesse módulo, portanto, caso alguma definição tenha ficado clara, logo em seguida serão apresentadas diversos exemplos de utilização delas, o que deve esclarecer dúvidas remanecentes.
 
 ## Exercícios
+Nota 1: Assim como todos os exemplos, os gabaritos estarão escritos na linguagem C.
+Nota 2: As respostas dos exercícios estarão todas na pasta "./gabaritos_exercicios"
+
+
+1. ### Escreva um programa que imprima a mensagem "Olá, mundo!" no terminal e pule uma linha logo depois.
+2. ### Escreva um programa que receba um número pelo terminal, e imprima o dobro desse número
+>    - dicas: o pacote <stdio.h> que traz a função printf() também contém uma função que consegue ler valores do terminal:
+>   ```
+>    Formato
+>
+>    scanf("%placeholder", &variavel)
+>    ```
+>    ```
+>    Exemplo
+>
+>    int main(void){
+>        int numeroInteiro;
+>        scanf("%d", &numeroInteiro); // Recebe um número inteiro do terminal e armazena na variável numeroInteiro
+>        printf("%d", numeroInteiro); //Imprime a variável numeroInteiro no terminal
+>        return 0;
+>    }
+>    ``` 
+<br>
+
+3. Faça um programa que receba 4 valores e imprima no terminal a média aritmética entre eles. <br>
+Média aritmética: 
+<img src="https://render.githubusercontent.com/render/math?math={\huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-light-mode-only">
+
+<img src="https://render.githubusercontent.com/render/math?math={\color{white} \huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-dark-mode-only">
 

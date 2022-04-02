@@ -26,8 +26,8 @@
         - [x] Loop vs Recursividade
         - [x] while vs For
     - [ ] Exercícios
-        - [ ] Hello_World
-        - [ ] Numero_dobrado
+        - [x] Hello_World
+        - [x] Numero_dobrado
         - [ ] Media_aritmetica
         - [ ] Area_retangulo
         - [ ] Area_circulo
