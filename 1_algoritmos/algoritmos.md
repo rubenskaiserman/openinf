@@ -783,5 +783,5 @@ Nota 2: As respostas dos exercícios estarão todas na pasta "./gabaritos_exerci
 3. Faça um programa que receba 4 valores e imprima no terminal a média aritmética entre eles. <br>
 Média aritmética: 
     <img src="https://render.githubusercontent.com/render/math?math={\huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-light-mode-only">
-    <img src="https://render.githubusercontent.com/render/math?math={\color{white} \huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-dark-mode-only">
+    <img src="https://render.githubusercontent.com/render/math?math={\color{white} \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-dark-mode-only">
 
