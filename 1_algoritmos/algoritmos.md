@@ -422,8 +422,8 @@ Portanto switch é uma opção válida para operações repetitivas como essa. E
 Contudo, algumas linguagens como Python e Rust não têm suporte ao switch case por ser considerado de certo modo desnecessário devido a possibilidade da utilização de else ifs, portanto o considerando redundante. Todavia, o conhecimento a respeito dessa estrutura ainda é importanta dado que pode ser encontrada em código legado, ou usada em código novo de línguagens que suportem esse tipo de estrutura.
 
 ## Funções
-Funções, resumidamente, podem ser vistas como blocos de código com nome. Assim como variáveis, porém ao invés de guardar dados, guardam instruções. A organização do código através da separação em diversas funções é um método eficaz para a melhor legibilidade e organização do código. <br>
-Escrever o código linearmente se torna cada vez mais inviável conforme o tamanho do código cresce, por isso foi desenvolvida essa metodologia, onde você pode escrever um código separado que será "chamado" em algum momento. <br>
+Funções, podem ser vistas como blocos de código com nome. Assim como variáveis, porém ao invés de guardar dados, guardam instruções. A organização do código através da separação em diversas funções é um método eficaz para tornar o código mais legível e organizado. <br>
+Escrever o código linearmente torna-se inviável conforme o tamanho do código cresce, por isso foi desenvolvida esse método, onde você pode escrever um código separado que será "chamado" em algum momento. <br>
 As funções possuem duas caracteristicas principais:
 1. Parâmetros: basicamente variáveis externas a função que são passadas para ela, a fim de que a partir delas a função realize uma série de operações.
 2. Retorno: Essa é uma caracteristica presente na maioria das funções, retorno é basicamente o resultado que a função gera, sendo esse valor o definidor do tipo da função. Por exemplo, uma função que retorna um valor inteiro, é uma função do tipo int, uma função que retorna um caracter, é uma função do tipo caracter, e assim por diante.<br>
@@ -446,7 +446,7 @@ Dentro de todas as funções main escritas até o momento está presente um coma
 ```
 return 0;
 ```
-O que o return faz, é retornar o resultado da função. Porém, a função main() de um código C não será chamada em nenhuma outra parte do código, portanto o retorno dela não é utilizado, é apenas uma convenção retornar 0 se o código faz como é esperado, e retornar 1 se o código fizer algo de errado. Como até o momento não houve possibilidade do código dar errado, com exceção de erro do programador, até então apenas retornamos 0. <br>
+O que o return faz, é retornar o resultado da função. Porém, a função main() de um código C não será chamada em nenhuma outra parte do código, portanto o retorno dela não é normalmente utilizado diretamenre, é apenas uma convenção retornar 0 se o código faz como é esperado, e retornar 1 se o código fizer algo de errado. Como até o momento não houve possibilidade do código dar errado, com exceção de erro do programador, até então apenas retornamos 0. <br>
 Mas de modo geral, em toda função que gera retorno, é necessário utilizar o comando return, e determinar o valor que será retornado. <br>
 Mais uma coisa importante sobre o return, é que ele determina o tipo da função. A função main por exemplo, retorna 0 ou 1, e portanto, ela se caracteriza como uma função do tipo int.
 ```
@@ -563,3 +563,119 @@ codigos/circulo$
 ```
 Acima podemos ver que é possível chamar uma função antes da definição do escopo dela, desde ela tenha sido declarada antes. Ou seja, é como se fosse possível avisar ao computador que em algum momento abaixo no código a função será definida.
 
+4. Variáveis possuem um escopo. Ou seja, uma variável só pode ser acessada dentro do mesmo bloco de código onde ela foi criada. Ou seja, se é criada uma variável qualquer dentro da função main, ela não pode ser acessada normalmente na função soma, a não ser que seja passada por parâmetro, como vimos anteriormente.
+```
+./codigos/escopo/escopo.c -linha 3
+
+void randomFunction();
+char outraFuncao();
+
+int main(void){
+    char variavelInacessivel = 'a';
+    printf("%c", outraFuncao());
+
+    return 1;
+}
+
+char outraFuncao(void){
+    return variavelInacessivel;
+}
+```
+```
+Terminal
+
+codigos/escopo$ make escopo
+cc     escopo.c   -o escopo
+escopo.c: In function ‘outraFuncao’:
+escopo.c:14:12: error: ‘variavelInacessivel’ undeclared (first use in this function)
+   14 |     return variavelInacessivel;
+      |            ^~~~~~~~~~~~~~~~~~~
+escopo.c:14:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [<embutido>: escopo] Erro 1
+codigos/escopo$ 
+```
+Como podemos ver acima, ao tentar compilar o código houve um erro. O problema está na tentativa de acessar a variável "variavelInacessivel" dentro da função que está fora do escopo dela. 
+```
+"Erro dentro da função 'outraFuncao'"
+linha 14: erro: 'return variavelInacessivel'
+14 | return variavelInacessivel;
+   |        ^~~~~~~~~~~~~~~~~~~
+...
+```
+
+### Recursividade
+Um dos tópicos mais importantes da programação funcional é a recursividade. Falaremos mais sobre ela no módulo sobre estruturas de dados. Porém, esse recurso se trata de chamar a função dentro de si mesma. Por exemplo, imagine que você quer imprimir no terminal uma contagem regressiva. Ao invés de escrever a mensagem 10 vezes, é possível escrever uma função que recebe como parâmetro o valor atual, imprima ele, e dentro da função chame ela mesma porém passando o valor inicial menos 1. Vejamos esse exemplo abaixo:
+
+```
+./codigos/recursividade_1/regressiva.c -linha 3
+
+void contagemRegressiva(int num);
+
+int main(void){
+    contagemRegressiva(10);
+    return 0;
+}
+
+void contagemRegressiva(int num){
+    if(num == 0){
+        printf("%d\n", num);
+    }
+    else{
+        printf("%d\n", num);
+        contagemRegressiva(num - 1);
+    }
+}
+
+```
+```
+Terminal
+
+codigos/recursividade_1$ make regressiva
+cc     regressiva.c   -o regressiva
+codigos/recursividade_1$ ./regressiva
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+codigos/recursividade_1$ 
+```
+Basicamente é feita uma verificação condicional simples: Se o numero passado por parâmetro for 0, então a contagem acabou, apenas imprima zero no terminal. Se não for 0, significa que ainda estamos contando, imprima o valor atual, e chame a função de contagem regressiva de novo passando o mesmo valor num - 1. <br>
+Quando chamada de novo, a função repetira o processo. Ou seja, a função chamará a si mesma até que o valor seja 0. Quando tratamos de estruturas de dados, muitas vezes será necessário utilizar recursividade para acessar as informações dentro delas, pois de outros modos sería muito custoso computacionalmente. <br>
+Uma nota sobre recursividade é que deve-se tomar cuidado de não criar um processo de recursão infinita. Ou seja, a função chama ela mesma de novo e de novo sem nunca parar. Por exemplo, o que impede o codigo acima de entrar em recursão infinita, é que primeiro, quando num é 0, a função não se chama de novo, e segundo, sempre que não é zero, é passado o num -1 para o próximo chamado, ou seja, sendo o num inicial um inteiro positivo, em algum momento num será igual a zero. Contudo, caso inserido um número negativo como num inicial, o programa entrará em recursão infinita e deverá ser parado a força, do contrário consumirá toda a memória disponível no computador.
+
+```
+./codigos/recursividade_2/recursao_infinita.c
+
+int main(void){
+    contagemRegressiva(-1);
+
+    return 1;
+}
+
+```
+
+```
+codigos/recursividade_2$ make recursao_infinita
+cc     recursao_infinita.c   -o recursao_infinita
+codigos/recursividade_2$ ./recursao_infinita
+-1
+-2
+-3
+-4
+...
+-261688
+-261689
+-261690
+-261691
+Falha de segmentação (imagem do núcleo gravada)
+codigos/recursividade_2$ 
+```
+Acima vemos o exemplo de recursão infinita citado. O valor num inicial é definido como -1, e portanto a função irá chamar a si mesma até não conseguir mais. Como visto no terminal abaixo, a função chamou a si mesma 261690 vezes, até que o computador onde o código foi rodado parasse ela a força após uma falha de segmentação. <br>
+O problema acima pode ser facilmente evitado fazendo uma verificação se o valor inicial num é negativo assim como se verificou se ele é zero. Porém, esse exemplo foi apenas para demonstrar um dos cuidados necessários ao utilizar recursividade.
