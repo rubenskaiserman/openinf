@@ -19,18 +19,43 @@
         - [x] Operadores binários/booleanos
         - [x] Operadores ternários
         - [x] switch case
-    - [ ] Funções
+    - [x] Funções
         - [x] Parâmetros e Retorno
-        - [ ] Recursividade
-    - [ ] Loops
-        - [ ] while
-        - [ ] for/foreach
-        - [ ] Outros loops
-    - [ ] Principais algoritmos (Talvez)
+        - [x] Recursividade
+    - [x] Loops
+        - [x] Loop vs Recursividade
+        - [x] while vs For
+    - [ ] Exercícios
+        - [ ] Hello_World
+        - [ ] Numero_dobrado
+        - [ ] Media_aritmetica
+        - [ ] Area_retangulo
+        - [ ] Area_circulo
+        - [ ] Fahrenheit - Kelvin
+        - [ ] Tempo_download
+        - [ ] Maior_de_dois
+        - [ ] Positivo_Negativo
+        - [ ] Vogal_Consoante
+        - [ ] Maior_de_três
+        - [ ] Ordenação_de_três
+        - [ ] Triangulo_NãoTriangulo
+        - [ ] Ano_bissexto
         - [ ] Palindrom Number (leetcode 9)
-
-    - [ ] A rosquinha giratória (Talvez)
-- [ ] ## Estruturas de dados
+        - [ ] Valor_valido
+        - [ ] calcule_população
+        - [ ] 1-20_virgulados
+        - [ ] RetorneMaior
+        - [ ] GeradorTabuada
+        - [ ] ExponenciaçãoManual
+        - [ ] MultiplicarSemMultiplicar
+        - [ ] Sequência de Fibonacci
+        - [ ] Fatorial
+        - [ ] Numero_primo
+        - [ ] triangulo_n_de_n
+        - [ ] triangulo_n_de_1-n
+        - [ ] soma_tripla
+        - [ ] 24h_12h
+- ## Estruturas de dados
     - [ ] O que são estruturas de dados
     - [ ] Manipulação de memória e ponteiros
     - [ ] ...
@@ -99,4 +124,3 @@
     - [ ] Desenvolvimento Agile e Clean Code
     - [ ] Testes automatizados
     - [ ] Debugging e documentação
-statement is basically nested if statement, though it does not support expression, it matches an int, string, or boolean data type variable with a given set of cases that are provided by the programmer. It is mainly used in a menu-driven program where the user selects which function they want to run. A switch case in Rust is achieved by the keyword match

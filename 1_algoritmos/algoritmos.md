@@ -662,6 +662,8 @@ int main(void){
 ```
 
 ```
+Terminal
+
 codigos/recursividade_2$ make recursao_infinita
 cc     recursao_infinita.c   -o recursao_infinita
 codigos/recursividade_2$ ./recursao_infinita
@@ -679,3 +681,79 @@ codigos/recursividade_2$
 ```
 Acima vemos o exemplo de recursão infinita citado. O valor num inicial é definido como -1, e portanto a função irá chamar a si mesma até não conseguir mais. Como visto no terminal abaixo, a função chamou a si mesma 261690 vezes, até que o computador onde o código foi rodado parasse ela a força após uma falha de segmentação. <br>
 O problema acima pode ser facilmente evitado fazendo uma verificação se o valor inicial num é negativo assim como se verificou se ele é zero. Porém, esse exemplo foi apenas para demonstrar um dos cuidados necessários ao utilizar recursividade.
+
+## Loops
+Como comentado antes, muitas vezes é preciso repetir uma mesma sequência de operações com poucas alterações. Loops são basicamente uma estrutura feita para isso. Basicamente define-se um bloco de código e uma regra para a quebra do loop. Vejamos como sería uma contagem regressiva utilizando loops<br>
+```
+./codigos/loops_1/regressiva.c
+
+#include <stdio.h>
+
+int main(void){
+    int i = 10;
+    while(i >= 0){
+        printf("%d\n", i);
+        i--;
+    } 
+}
+```
+
+```
+Terminal
+codigos/loops_1$ make regressiva
+cc     regressiva.c   -o regressiva
+codigos/loops_1$ ./regressiva
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+kaiserman@dev:~/Dev/informatica_open_source/1_algoritmos/codigos/loops_1$ 
+```
+Acima podemos ver que o resultado é exatamente o mesmo do processo recursivo que definimos anteriormente, mas a estrutura é completamente diferente. Primeiro é definida uma variável inteira "i" iniciada com o valor 10. Em seguida é definido o bloco do loop while sob a regra de que deve repetir os comandos do bloco enquanto i for maior ou igual à 0. <br>
+Já dentro do bloco a variável i é imprimida no terminal, e na linha abaixo utiliza-se um chamado operador unário "--" que reduz o valor de i em 1 unidade. Daí, quando o valor de i for -1, o loop vai parar de se repetir. <br>
+Quanto a diferença entre loops e recursividade. Realizar esse tipo de tarefa utilizando recursão, é algumas vezes um método não muito eficiente por conta do alto custo de memória. Porém, loops são uma estrutura que mesmo consumindo maior poder de processamento, utilizam menos memória, então em muitos casos podem ser a melhor opção. <br>
+
+### While loop vs For loop
+Existem dois tipos principais de estruturas de repetição(loops). Os loops "while", e os "loops" for. A diferença entre eles é que o while recebe uma condição (valor booleano) e realizará o loop até que essa condição o diga para parar. Já o for, recebe três coisas, uma variável numérica, uma regra booleana e uma operação, a variável é o valor que será operado, a regra é o que determina se o loop será realizado e a operação modifica a variável determinada. Uma contagem regressiva com loop for sería formulada da seguinte maneira:
+```
+./codigos/loops_2/regressiva.c
+
+#include <stdio.h>
+
+int main(void){
+    for(int i = 10; i >= 0; i--){
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+```
+```
+codigos/loops_2$ make regressiva
+cc     regressiva.c   -o regressiva
+codigos/loops_2$ ./regressiva
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+codigos/loops_2$ 
+```
+Como pode-se ver, loops têm uma estrutura mais bem definida que permite muitas vezes reduzir a quantidade de linhas do código, assim tornando-o mais legível. Muitas vezes os loops têm uma quantidade de repetições pré definidas, e portanto for se torna uma opção muito válida na maioria das vezes. Contudo, algumas vezes não se sabe previamente quando se deve parar um loop, portanto o while é uma opção importante também. <br>
+No próximo módulo, falaremos sobre estruturas de dados, onde serão utilizadas todas as ferramentas comentadas nesse módulo, portanto, caso alguma definição tenha ficado clara, logo em seguida serão apresentadas diversos exemplos de utilização delas, o que deve esclarecer dúvidas remanecentes.
+
+## Exercícios
+
