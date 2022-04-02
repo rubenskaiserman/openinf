@@ -28,8 +28,8 @@
     - [ ] Exercícios
         - [x] Hello_World
         - [x] Numero_dobrado
-        - [ ] Media_aritmetica
-        - [ ] Area_retangulo
+        - [x] Media_aritmetica
+        - [x] Area_retangulo
         - [ ] Area_circulo
         - [ ] Fahrenheit - Kelvin
         - [ ] Tempo_download
@@ -48,13 +48,13 @@
         - [ ] GeradorTabuada
         - [ ] ExponenciaçãoManual
         - [ ] MultiplicarSemMultiplicar
-        - [ ] Sequência de Fibonacci
-        - [ ] Fatorial
-        - [ ] Numero_primo
         - [ ] triangulo_n_de_n
         - [ ] triangulo_n_de_1-n
         - [ ] soma_tripla
         - [ ] 24h_12h
+        - [ ] Sequência de Fibonacci
+        - [ ] Fatorial
+        - [ ] Numero_primo
 - ## Estruturas de dados
     - [ ] O que são estruturas de dados
     - [ ] Manipulação de memória e ponteiros

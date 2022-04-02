@@ -762,7 +762,7 @@ Nota 2: As respostas dos exercícios estarão todas na pasta "./gabaritos_exerci
 
 1. ### Escreva um programa que imprima a mensagem "Olá, mundo!" no terminal e pule uma linha logo depois.
 2. ### Escreva um programa que receba um número pelo terminal, e imprima o dobro desse número
->    - dicas: o pacote <stdio.h> que traz a função printf() também contém uma função que consegue ler valores do terminal:
+    - dicas: o pacote <stdio.h> que traz a função printf() também contém uma função que consegue ler valores do terminal:
 >   ```
 >    Formato
 >
@@ -785,3 +785,6 @@ Média aritmética:
     <img src="https://render.githubusercontent.com/render/math?math={\huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-light-mode-only">
     <img src="https://render.githubusercontent.com/render/math?math={\color{white} \huge \frac{n_1 %2b n_2 %2b n_3... n_m}{m}}#gh-dark-mode-only">
 
+4. Crie um programa que receba como input a altura e a largura de um retângulo e calcule a área.
+    - Dica: A área de um retângulo é o produto da altura e da largura <img src="https://render.githubusercontent.com/render/math?math={ a \times b}#gh-light-mode-only">
+    <img src="https://render.githubusercontent.com/render/math?math={\color{white} a \times b}#gh-dark-mode-only">
