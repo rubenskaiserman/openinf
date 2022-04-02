@@ -73,13 +73,13 @@
     - [ ] HashMap e manipulação
     - [ ] ...
     - [ ] Complexidade de algoritmos
-- [ ] ## Programação Orientada a Objetos
+- ## Programação Orientada a Objetos
     - [ ] O que é programação orientada a objetos
     - [ ] C vs C++
     - [ ] Atributos e métodos
     - [ ] Herança e Polimorfismo
     - [ ] Design Patterns
-- [ ] ## Linguagens e Tecnicas de programação
+- ## Linguagens e Tecnicas de programação
     - [ ] Low level vs High Level
     - [ ] Línguagens Compuladas vs Interpretadas
     - [ ] Python vs C++
@@ -87,7 +87,7 @@
     - [ ] JavaScript e Desenvolvimento Web
     - [ ] Php e Backend
     - [ ] Python e Bibliotecas
-- [ ] ## Banco de dados
+- ## Banco de dados
     - [ ] Por que usar um banco de dados?
     - [ ] Relacional vs Não relacional
     - [ ] A linguagem SQL
@@ -98,14 +98,14 @@
     - [ ] Introdução a Big data e data science
     - [ ] Bancos de dados NoSQL com MongoDB
     - [ ] Integração de banco de dados com Python
-- [ ] ## Fundamentos da Web
+- ## Fundamentos da Web
     - [ ] Computação aplicada
     - [ ] O que é internet?
     - [ ] Introdução a Redes
     - [ ] HTTP
     - [ ] Browsers
     - [ ] HTML e CSS
-- [ ] ## Desenvolvimento Web
+- ## Desenvolvimento Web
     - [ ] HTML e CSS Revisão
     - [ ] JavaScript
     - [ ] TypeScript e Node.js
@@ -117,7 +117,7 @@
     - [ ] Segurança da informação
     - [ ] Python com Django para backend Web 
     - [ ] Web applications
-- [ ] ## Projeto e desenvolvimento de sistemas
+- ## Projeto e desenvolvimento de sistemas
     - [ ] Levantamento de Requisitos
     - [ ] Planejamento e modelagem de sistemas
     - [ ] Modelagem de sistemas e diagramas UML
