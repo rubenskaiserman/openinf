@@ -56,10 +56,11 @@
         - [ ] Fatorial
         - [ ] Numero_primo
 - ## Estruturas de dados
-    - [ ] O que são estruturas de dados
+    - [x] O que são estruturas de dados
+    - [x] Arrays
+    - [x] Strings
     - [ ] Manipulação de memória e ponteiros
     - [ ] ...
-    - [ ] Arrays e Strings
         - [ ] Adicionar valor a array ou string
         - [ ] Remover valor do array ou string
         - [ ] Análisar array ou string
