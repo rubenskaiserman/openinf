@@ -63,8 +63,9 @@
         - [ ] Adicionar valor a array ou string
         - [ ] Remover valor do array ou string
         - [ ] Análisar array ou string
-        - [ ] char[] upperCase(char[] str) e char[] lowerCase(char[] str)
     - [ ] Criação de tipos de dados
+    - [ ] Tipo String
+        - [ ] argc e argv
     - [ ] Linked Lists e manipulação
     - [ ] Stacks e manipulação
         - [ ] Valid Parenthesis question (LeetCode 20)
