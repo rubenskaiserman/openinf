@@ -6,4 +6,6 @@ int main(void){
         printf("%c", string[i]);
     }
     printf("\n%s\n", string);
+
+    return 0;
 }

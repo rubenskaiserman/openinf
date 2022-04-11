@@ -5,6 +5,8 @@ int str_len(char str[]);
 
 int main(void){
     printf("%d\n", str_len("Eu nao valho nada - Lagum"));
+
+    return 0;
 }
 
 int str_len(char str[]){

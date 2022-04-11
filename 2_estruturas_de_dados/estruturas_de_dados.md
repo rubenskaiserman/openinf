@@ -51,6 +51,8 @@ int main(void){
     double arrayDouble[4] = {9.2, 1.3, 1.111, 3.14159};
     char arrayChar[9] = {'O', 'l', 'a', ' ', 'mfor(int i = 0; i < 3; i++){
     novoArray[i] = array[i];
+
+    return 0;
 }
 ', 'u', 'n', 'd', 'o'};
 
@@ -120,6 +122,8 @@ int main(void){
     }
     printf("\n")
     printf("%s\n", string);
+
+    return 0;
 }
 ```
 
@@ -162,6 +166,8 @@ int str_len(char str[]);
 
 int main(void){
     printf("%d\n", str_len("Eu nao valho nada - Lagum"));
+
+    return 0;
 }
 
 ...
@@ -186,6 +192,8 @@ Acontece que a própria linguagem C, assim como muitas outras, dispõe de uma bi
 
 int main(void){
     printf("%d\n", strlen("Eu nao valho nada - Lagum"));
+    
+    return 0;
 }
 ```
 ```
@@ -215,6 +223,8 @@ int main(void){
         }
     }
     printf("%s\n", str);
+
+    return 0;
 }
 ```
 
