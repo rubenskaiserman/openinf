@@ -65,16 +65,22 @@
         - [ ] Análisar array ou string
     - [ ] Criação de tipos de dados
     - [ ] Tipo String
-        - [ ] argc e argv
     - [ ] Linked Lists e manipulação
     - [ ] Stacks e manipulação
-        - [ ] Valid Parenthesis question (LeetCode 20)
     - [ ] binary tree e manipulação
         - [ ] Binary Search
     - [ ] HashSet e manipulação
     - [ ] HashMap e manipulação
     - [ ] ...
+- ## Algoritmos II
+    - [ ] argc e argv
+    - [ ] exit status
+    - [ ] Criptografia
+        - [ ] Cifra de César
+        - ...
+    - [ ] Valid Parenthesis question (LeetCode 20)
     - [ ] Complexidade de algoritmos
+    - ...
 - ## Programação Orientada a Objetos
     - [ ] O que é programação orientada a objetos
     - [ ] C vs C++
