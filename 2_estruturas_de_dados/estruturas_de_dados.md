@@ -1,5 +1,16 @@
 # Estruturas de dados
 
+## Memória
+Antes de falarmos sobre estruturas de dados em si, relembre-mos como funciona a memória de um computador. <br>
+A memória de um computador, pode ser abstraída em formato de uma grande grade.
+| coluna1 | coluna2 | coluna3 |    ...  | colunaN-1 | colunaN |
+|---------|---------|---------|---------|---------|-----------|
+| linha1  |  0x123  |  0x976  |     ... |  0x439  |  0x127    |
+| linha2  |  0x888  | 0x863   |     ... |  0x909  |  0x900    |
+| linha3  |  0x136  | 0x121   |     ... |  0x120  |  0x001    |
+|   ...   |  ...    | ...     |     ... |  ...    |  ...      |
+| linhaM-1|  0x2e0  | 0x111   |     ... |  0x8d9  |  0x065    |
+| linhaM  |  0xeee  | 0x989   |     ... |  0x1a1  |  0xaf2    |
 
 ## O que são estruturas de dados
 Até agora vimos o registro de informações através de variáveis, porém, esse método não é eficiente para o registro de grandes coleções de dados. Por exemplo, caso seja desejado guardar todas as notas de uma turma escolar, sería necessário criar um nome para cada nota, tornando assim o processo nada eficiente. <br>
@@ -97,6 +108,4 @@ Lasanha
 codigos/strings$ 
 ```
 Acima podemos ver um exemplo de implementação de um código utilizando uma string. É definido um array de caracteres com 7 posições, e a partir dele são feitas duas lógicas para a impressão da string no terminal. <br>
-Na primeira o valor é tratado puramente como um array, e é imprimido diretamente a partir de cada caracter utilizando um loop for. Já na segunda, o valor é tratado como um tipo de dado, e é imprimido no terminal diretamente utilizando o printf().
-
-## Criação de estruturas de dados
+## Ponteiros e Manipulação de memória
