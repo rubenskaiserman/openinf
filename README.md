@@ -14,5 +14,7 @@ O conteúdo está descrito no planejamento em:
 #### [Planejamento](https://github.com/rubskaiserman/informatica_open_source/blob/main/PLANEJAMENTO.md)
 
 
+## Sumário
+
 - ### [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.md)
 - ### [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.md)
