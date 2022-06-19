@@ -106,14 +106,15 @@
     - [ ] Introdução a Big data e data science
     - [ ] Bancos de dados NoSQL com MongoDB
     - [ ] Integração de banco de dados com Python
-- ## Fundamentos da Web
-    - [ ] Computação aplicada
-    - [ ] O que é internet?
-    - [ ] Introdução a Redes
-    - [ ] HTTP
-    - [ ] Browsers
-    - [ ] HTML e CSS
+- ## Redes de Computadores
+    - [ ] Redes e a Internet
+    - [ ] Componentes de redes
+    - [ ] Protocolos
+    - [ ] Subdivisões de redes
+    - [ ] ...
+    - [ ] Introdução a segurança da informação
 - ## Desenvolvimento Web
+    - [ ] Computação aplicada
     - [ ] HTML e CSS Revisão
     - [ ] JavaScript
     - [ ] TypeScript e Node.js

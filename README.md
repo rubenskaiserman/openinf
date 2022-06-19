@@ -1,15 +1,18 @@
 # Informática Open Source
 
-Então, esse repositório vai ser uma apostila completa para todas as matérias de software ensinadas no curso técnico em informática do Instituto Federal do Rio de Janeiro.
-Basicamente o objetivo é que qualquer um, com tempo e paciência seja capaz de acessar esse repositório e obter todo o conhecimento que um curso técnico profissionalizante disponibiliza.
+Então, antes de falar desse repositório, permita que eu me apresente. Meu nome é Rubens, eu fiz o ensino médio em uma escola técnica Federal. Me formei como técnico em informática e toda aquela coisa.
+Daí eu, que sou um grande apaixonado pela área, pensei: E se eu transcrevesse todo o conhecimento, que eu obtive lá, no meu github?
+<br>
 
-O conteúdo vai ser organizado em notebooks, com um notebook para cada matéria. Esses cadernos são escritos em markdown então o display aqui no github fica bem bacana. + têm vários recursos legais para a edição do conteúdo, o que é excelente para questão de organização.
+Daí surge esse repositório.
+<br>
 
-Ainda está bem no começo, mas no geral os tópicos estão descritos na ementa. Por enquanto eu estou escrevendo o notebook de algoritmos. Estou usando C como a linguagem de descrição. A razão da escolha do C é porque não têm muita facilitação do que fazer. Praticamente tudo têm que ser construído do zero, e eu acredito que por motivos didáticos, é bom fazer isso pelo menos no começo, para que se saiba pelo menos mais ou menos como tudo funciona.
+NOTA: Ainda está em construção. Duas seções estão completas e duas estão em construção. Introdução a computadores e Algoritmos, que são duas matérias introdutórias, estão completas. No momento Estruturas de dados, que é a próxima matéria na progressão, está em construção, e eu estou também trabalhando na seção de Redes, porque estou revendo o tema agora, então é um momento bom pra trabalhar nisso.
 
-C deve ser usado pelo menos até estruturas de dados, e depois deve ser trocado por C++ para orientação a objetos. O plano é usar isso pra falar sobre a base da computação, e mais tarde mostrar outras linguagens como Python, Java e Php.
+O conteúdo está descrito no planejamento em:
 
-Essa apostila também deve cobrir conteúdos sobre Web e bancos de dados. Aqui no README.md eu devo colocar um grande sumário, então já vou começar.
+#### [Planejamento](https://github.com/rubskaiserman/informatica_open_source/blob/main/PLANEJAMENTO.md)
+
 
 - ### [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.md)
 - ### [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.md)
