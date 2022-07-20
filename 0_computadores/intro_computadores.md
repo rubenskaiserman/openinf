@@ -1,20 +1,20 @@
 # Introdução a computadores eletrônicos
 #### Antes de falarmos sobre algoritmos, linguagens de programação, e desenvolvimento de software, é necessária uma breve explicação sobre como computadores funcionam, e principalmente o que eles são, afinal, eles são a base que nos permite escrever código.
 
-## O que é um computadorgit config pull.rebase false
+## O que é um computador
 Um computador é uma máquina que a partir de um conjunto de instruções, manipula dados a fim de gerar um resultado.<br>
-Os computadores que são utilizados no desenvolvimento de software, são os chamados computadores baseados em componentes eletrônicos. Por exemplo desktops e notebooks.
+Os computadores que são utilizados no desenvolvimento de software, são os chamados computadores de propósito geral baseados em sistemas eletrônicos. Por exemplo desktops e notebooks.
 <br>
 
 ## Código de binário e linguagens de programação
 É conhecimento comum que computadores funcionam com base em código binário, mas pouco se fala além disso. <br>
 O código binário é na realidade uma forma de representar dois valores de pulso elétrico, se resumindo à, "Existe pulso" e "Não existe pulso". 1 e 0 respectivamente. Cada unidade do código binário é chamada de bit, definidos como a menor unidade de informação possível, a resposta para uma pergunta de sim ou não. 0 e 1 sendo Não e Sim, respectivamente. <br>
 O sistema de númeração binário é assim como o decimal, que utilizamos no dia a dia, um sistema válido, onde uma sequência de bits representa um valor numérico inteiro. Por exemplo 1001011 representa o número 75.
-Esse sistema foi escolhido não por ser fácil do humano de escrever código em, mas sim porque era fácil do computador compreender. Por isso mais a frente foram desenvolvidas linguagens mais compreensíveis ao ser humano, começando pela segunda geração de línguagens, com o Assembly, que por muitos é definido como código de máquina interpretável por humanos. Porém essa linguagem ainda é difícilmente compreensível além de ser diferente para cada tipo de processador devido a sua funcionalidade estar intrinsecamente baseada na arquitetura eletrônica da máquina. Por esse tipo de problema se desenvolveram as linguagens de terceira geração, também chamadas de linguagens de scripting. Exemplos são C, Pascal e Basic. Por serem escritas em inglês, linguagens de terceira geração possuem uma sintaxe muito mais próxima da humana, sendo portanto mais compreensíveis além de rodarem em sistemas diversos, assim não necessitando de códigos diferentes para cada máquina. <br>
+Esse sistema foi escolhido não por ser fácil do humano de escrever código em, mas sim porque era fácil do computador compreender. Por isso mais a frente foram desenvolvidas linguagens mais compreensíveis ao ser humano. Começando pela segunda geração de línguagens, com o Assembly, que por muitos é definido como código de máquina interpretável por humanos. Porém essa linguagem ainda é difícilmente compreensível, além de ser diferente para cada tipo de processador devido a sua funcionalidade estar intrinsecamente baseada na arquitetura eletrônica da máquina. Por esse tipo de problema se desenvolveram as linguagens de terceira geração, também chamadas de linguagens de scripting. Exemplos são C, Pascal e Basic. Por serem escritas em inglês, linguagens de terceira geração possuem uma sintaxe muito mais próxima da humana, sendo portanto mais compreensíveis, além de rodarem em sistemas diversos, assim não necessitando de códigos diferentes para cada máquina. <br>
 Existêm também linguagens de quarta geração, como por exemplo SQL, uma linguagem utilizada para manipulação de bases de dados. Porém para programação ainda nos baseamos nas línguagens de terceira geração.
 
 ## Representação de estruturas com código binário
-Como dito no tópico anterior, computadores compreendem apenas código de máquina, ou seja, sequências de bits. Porém, esses bits são utilizados para representar coisas muito mais complexas, como por exemplo uma imagem, um vídeo, ou simplesmente um texto escrito. Para fazer isso determinam-se diversas sequências de bits representando um determinado padrão. Como falado anteriormente, sequências de bits representam números maiores, portanto, para representar sistemas mais complexos, como o alfabeto, atribui-se a cada caracter um valor numérico. Inicialmente para cada caracter do alfabeto estadunidense, junto de pontuações e alguns caracteres especiais, foi atribuido um valor definido por exatamente 8 bits, como mostrado na tabela ASCII abaixo.
+Como dito no tópico anterior, computadores compreendem apenas código de máquina, ou seja, sequências de bits. Porém, esses bits são utilizados para representar coisas muito mais complexas, como por exemplo uma imagem, um vídeo, ou simplesmente um texto escrito. Para fazer isso determinam-se diversas sequências de bits representando um determinado padrão. Como falado anteriormente, sequências de bits representam números maiores, portanto, para representar sistemas mais complexos, como o alfabeto, atribui-se a cada caracter um valor numérico. Inicialmente para cada caracter do alfabeto estadunidense, junto de pontuações e alguns caracteres especiais, foi atribuido um valor definido por exatamente 8 bits, como mostrado no trecho da tabela ASCII abaixo.
 
 | Caracter |   bin   | 	 Dec 	| Oct 	| Hex|
 |----------|---------|----------|-------|----|
@@ -52,6 +52,6 @@ Ou seja, um HD com 1TB de armazenamento é capaz de armazenar aproximadamente 8,
 
 <br>
 <br>
-Esse é o final do caderno. Espero que tenham sido introduzidas todas as informações necessárias para inicio dos estudos em programação. 
+Esse é o final do caderno. Espero que as informações tenham sido bem introduzidas para inicio dos estudos em programação. 
 
 [De volta ao início](#introdução-a-computadores-eletrônicos)
