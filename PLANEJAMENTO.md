@@ -87,14 +87,15 @@
     - [ ] Atributos e métodos
     - [ ] Herança e Polimorfismo
     - [ ] Design Patterns
+    - ...
 - ## Linguagens e Tecnicas de programação
     - [ ] Low level vs High Level
-    - [ ] Línguagens Compuladas vs Interpretadas
+    - [ ] Linguagens: Compiladas vs Interpretadas
     - [ ] Python vs C++
-    - [ ] Java e Desenvolvimento Mobile
+    - [ ] Python e Bibliotecas
     - [ ] JavaScript e Desenvolvimento Web
     - [ ] Php e Backend
-    - [ ] Python e Bibliotecas
+    - [ ] Java e Desenvolvimento Mobile
 - ## Banco de dados
     - [ ] Por que usar um banco de dados?
     - [ ] Relacional vs Não relacional
@@ -103,9 +104,10 @@
     - [ ] Criação de bancos de dados PostgreSQL
     - [ ] Inserção, Modificação, Remoção e Seleção de dados (CRUD)
     - [ ] Queries e Subqueries
-    - [ ] Introdução a Big data e data science
+    - [ ] Functions, Triggers e Stored Procedures
+    - [ ] Introdução a Big data
     - [ ] Bancos de dados NoSQL com MongoDB
-    - [ ] Integração de banco de dados com Python
+    - [ ] Integração de banco de dados com Linguagens de programação
 - ## Redes de Computadores
     - [ ] Redes e a Internet
     - [ ] Componentes de redes
@@ -115,21 +117,15 @@
     - [ ] Introdução a segurança da informação
 - ## Desenvolvimento Web
     - [ ] Computação aplicada
+    - [ ] Client side vs Server side
     - [ ] HTML e CSS Revisão
     - [ ] JavaScript
+        - [ ] Orientação a Prototypes
+        - [ ] Design Patterns
+        - [ ] Json format
     - [ ] TypeScript e Node.js
-    - [ ] Bootstrap e Bibliotecas Web
-    - [ ] client side vs server side
+    - [ ] React
     - [ ] Introdução a Cloud
-    - [ ] Python e Flask para backend web
     - [ ] Integração com banco de dados
-    - [ ] Segurança da informação
-    - [ ] Python com Django para backend Web 
     - [ ] Web applications
-- ## Projeto e desenvolvimento de sistemas
-    - [ ] Levantamento de Requisitos
-    - [ ] Planejamento e modelagem de sistemas
-    - [ ] Modelagem de sistemas e diagramas UML
-    - [ ] Desenvolvimento Agile e Clean Code
-    - [ ] Testes automatizados
-    - [ ] Debugging e documentação
+    - [ ] Segurança da informação
