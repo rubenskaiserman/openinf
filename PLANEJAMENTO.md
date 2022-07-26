@@ -93,9 +93,8 @@
     - [ ] Linguagens: Compiladas vs Interpretadas
     - [ ] Python vs C++
     - [ ] Python e Bibliotecas
-    - [ ] JavaScript e Desenvolvimento Web
-    - [ ] Php e Backend
-    - [ ] Java e Desenvolvimento Mobile
+    - [ ] Python vs Java
+    - [ ] Java e clean code
 - ## Banco de dados
     - [ ] Por que usar um banco de dados?
     - [ ] Relacional vs Não relacional
@@ -117,15 +116,21 @@
     - [ ] Introdução a segurança da informação
 - ## Desenvolvimento Web
     - [ ] Computação aplicada
+    - [ ] Internet in a Nutshell
+        - [ ] How the internet works
+        - [ ] Introdução à redes
     - [ ] Client side vs Server side
+        - [ ] Http protocol
     - [ ] HTML e CSS Revisão
     - [ ] JavaScript
         - [ ] Orientação a Prototypes
         - [ ] Design Patterns
         - [ ] Json format
-    - [ ] TypeScript e Node.js
-    - [ ] React
-    - [ ] Introdução a Cloud
+    - [ ] Php e Server Side
+    - [ ] Node.js e JavaScript no Server side
+    - [ ] TypeScript e evolução das línguagens
+    - [ ] React e Frameworks frontend
     - [ ] Integração com banco de dados
     - [ ] Web applications
-    - [ ] Segurança da informação
+    - [ ] Introdução a Cloud
+    - [ ] Introdução a Cybersecuritys
