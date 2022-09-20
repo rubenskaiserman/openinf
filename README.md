@@ -3,17 +3,18 @@
 Decidi que ia colocar aqui tudo que eu aprendi no meu curso técnico em informática. Basicamente vai funcionar da seguinte maneira: Abaixo eu vou colocar diversos links que levam a conteúdos sobre o mundo de TI, desde o básico sobre como funciona um computador, até vulnerabilidades comuns em redes, leia-se: meios para hackear o wifi do vizinho.
 
 ## Básico: 
-- O que são computadores e sua história: https://pt.wikipedia.org/wiki/Computador [1](#notas)
+- O que são computadores e sua história: https://pt.wikipedia.org/wiki/Computador
+[[1*]](#notas)
 - O que é código binário, para que serve e como funciona: https://pt.wikipedia.org/wiki/Sistema_de_numera%C3%A7%C3%A3o_bin%C3%A1rio
 - Introdução à linguagens de programação: https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o
 - Introdução à Sistemas Operacionais: https://pt.wikipedia.org/wiki/Sistema_operativo
-- Introdução ao Linux: https://pt.wikipedia.org/wiki/Linux [2](#notas)
+- Introdução ao Linux: https://pt.wikipedia.org/wiki/Linux [[2*]](#notas)
 - Apresentação do mundo Open Source: https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto
 ## Algoritmos e estruturas de dados em C++
-- Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [3](#notas)
+- Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [[3*]](#notas)
 - Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
 ## Desenvolvimento web básico
-- https://www.w3schools.com/whatis/default.asp [4](#notas)
+- https://www.w3schools.com/whatis/default.asp [[4*]](#notas)
 - Tutoriais de HTML na W3School: https://www.w3schools.com/html/default.asp
 - Tutoriais de CSS na W3School: https://www.w3schools.com/css/default.asp
 - Tutoriais de JavaScript na W3School: https://www.w3schools.com/js/default.asp
