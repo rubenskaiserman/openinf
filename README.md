@@ -14,7 +14,7 @@ Decidi que ia colocar aqui tudo que eu aprendi no meu curso técnico em informá
 - Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [[3*]](#notas)
 - Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
 ## Desenvolvimento web básico
-- https://www.w3schools.com/whatis/default.asp [[4*]](#notas)
+- Apresentação de conceitos: https://www.w3schools.com/whatis/default.asp [[4*]](#notas)
 - Tutoriais de HTML na W3School: https://www.w3schools.com/html/default.asp
 - Tutoriais de CSS na W3School: https://www.w3schools.com/css/default.asp
 - Tutoriais de JavaScript na W3School: https://www.w3schools.com/js/default.asp
