@@ -1,20 +1,58 @@
 # Informática Open Source
+### O seu passo a passo de como se tornar um técnico em informática
+Decidi que ia colocar aqui tudo que eu aprendi no meu curso técnico em informática. Basicamente vai funcionar da seguinte maneira: Abaixo eu vou colocar diversos links que levam a conteúdos sobre o mundo de TI, desde o básico sobre como funciona um computador, até vulnerabilidades comuns em redes, leia-se: meios para hackear o wifi do vizinho.
 
-Então, antes de falar desse repositório, permita que eu me apresente. Meu nome é Rubens, eu fiz o ensino médio em uma escola técnica Federal. Me formei como técnico em informática e toda aquela coisa.
-Daí eu, que sou um grande apaixonado pela área, pensei: E se eu transcrevesse todo o conhecimento, que eu obtive lá, no meu github?
+## Básico: 
+- O que são computadores e sua história: https://pt.wikipedia.org/wiki/Computador [1](#notas)
+- O que é código binário, para que serve e como funciona: https://pt.wikipedia.org/wiki/Sistema_de_numera%C3%A7%C3%A3o_bin%C3%A1rio
+- Introdução à linguagens de programação: https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o
+- Introdução à Sistemas Operacionais: https://pt.wikipedia.org/wiki/Sistema_operativo
+- Introdução ao Linux: https://pt.wikipedia.org/wiki/Linux [2](#notas)
+- Apresentação do mundo Open Source: https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto
+## Algoritmos e estruturas de dados em C++
+- Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [3](#notas)
+- Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+## Desenvolvimento web básico
+- https://www.w3schools.com/whatis/default.asp [4](#notas)
+- Tutoriais de HTML na W3School: https://www.w3schools.com/html/default.asp
+- Tutoriais de CSS na W3School: https://www.w3schools.com/css/default.asp
+- Tutoriais de JavaScript na W3School: https://www.w3schools.com/js/default.asp
+- Tutoriais de Bootstrap 5 na W3School: https://www.w3schools.com/bootstrap5/index.php
+## Desenvolvimento Web Frontend com React
+- Tutoriais de React na W3School: https://www.w3schools.com/react/default.asp
+## Banco de dados MySQL
+- Tutoriais de linguagem SQL na W3School: https://www.w3schools.com/sql/default.asp
+- Tutoriais de MySQL na W3School: https://www.w3schools.com/sql/default.asp
+## Introdução à segurança da informação
+- Tutoriais de segurança da informação na W3School: https://www.w3schools.com/cybersecurity/index.php
+## Desenvolvimento Backend com Node.js e Express
+- Tutoriais de Node.js na W3School: https://www.w3schools.com/nodejs/default.asp
+- Roteamento com Express: https://expressjs.com/pt-br/guide/routing.html
+- Middleware com Express pt.1: https://expressjs.com/pt-br/guide/writing-middleware.html
+- Middleware com Express pt.2: https://expressjs.com/pt-br/guide/using-middleware.html
+- Modelos com Express: https://expressjs.com/pt-br/guide/using-template-engines.html
+- Manipulação de erros com Express: https://expressjs.com/pt-br/guide/error-handling.html
+- Debugando código Express: https://expressjs.com/pt-br/guide/debugging.html
+- Express com Proxies: https://expressjs.com/pt-br/guide/behind-proxies.html
+- Express com Databases: https://expressjs.com/pt-br/guide/database-integration.html#mysql
+
+### Isso cobre as partes mais importantes de minha formação técnica, principalmente no que se refere à programação
+# Notas:
+- [1]: Por que referênciar a wikipédia mesmo sendo muito desvalorizada por acadêmicos?
+    - A wikipédia, por mais que permita que qualquer um altere suas informações, tem um sistema de fiscalização de conteúdos que atua extremamente rápido. Seja por meio de bots automatizados que desfazem modificações quando notam mudanças muito drásticas, ou pessoas que manualmente vão lá e recuperam a página. Surpreendentemente a wikipédia tem conteúdos com uma qualidade excepcional principalmente quando se tratando conteúdo técnico, ou seja, a não ser que alguém tenha propositalmente ido lá e modificado as informações verídicas minutos antes de você acessar, o conteúdo que estará lendo é de confiança, preciso e razoavelmente completo.
+    - Existe uma chance extremamente pequena de páginas já consolidadas da wikipédia serem derrubadas ou que o sistema como um todo vá abaixo, portanto é uma referência que poderá ser utilizada por um longo período de tempo.
+    - Além de estar disponível por um longo período de tempo, ela é constantemente atualizada, adicionando informações relevantes que podem ter ocorrido após a criação desse repositório
+    - Caso seja desejado maior aprofundamento e checagem das informações, a própria wikipédia apresenta um conjunto de referências acadêmicas que podem ser conferidas para esses objetivos.
 <br>
 
-Daí surge esse repositório.
+- [2]: Recomenda-se a utilização de um sistema operacional baseado no kernel linux para os estudos voltados à programação e segurança da informação. Como recomendação mais específica ficam sistemas operacionais baseados no Debian ou o próprio Debian. 
 <br>
 
-NOTA: Ainda está em construção. Duas seções estão completas e duas estão em construção. Introdução a computadores e Algoritmos, que são duas matérias introdutórias, estão completas. No momento Estruturas de dados, que é a próxima matéria na progressão, está em construção, e eu estou também trabalhando na seção de Redes, porque estou revendo o tema agora, então é um momento bom pra trabalhar nisso.
+- [3]: W3School é uma plataforma para o ensino de programação, (principalmente voltada para web) onde é possível ver os conceitos do básico ao avançado. Como uma plataforma consolidada, conhecida e largamente utilizada, é razoavel utiliza-la como fonte de referência, assim como fiz em meus estudos pessoais. 
+    - Os tutoriais apresentados pelo W3School apresentam um caminho bem estruturado, completo, prático, direto ao ponto e didático. Basta seguir os tutoriais apresentados na plataforma e deve ser possível obter um bom entendimento de como a linguagem e seus componentes relacionados funcionam. 
+    - W3School é uma plataforma desenvolvida em inglês, porém os textos podem ser traduzidos para português.
+<br>
 
-O conteúdo está descrito no planejamento em:
+- [4]: Do mesmo modo que no tópico anterior, basta que se siga os tutoriais da W3School.
 
-#### [Planejamento](https://github.com/rubskaiserman/informatica_open_source/blob/main/PLANEJAMENTO.md)
-
-
-## Sumário
-
-- ### [0 - Introdução a computadores](https://github.com/rubskaiserman/informatica_open_source/blob/main/0_computadores/intro_computadores.md)
-- ### [1 - Algoritmos](https://github.com/rubskaiserman/informatica_open_source/blob/main/1_algoritmos/algoritmos.md)
+- 
