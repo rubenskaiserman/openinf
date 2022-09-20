@@ -55,5 +55,3 @@ Decidi que ia colocar aqui tudo que eu aprendi no meu curso técnico em informá
 <br>
 
 - [4]: Do mesmo modo que no tópico anterior, basta que se siga os tutoriais da W3School.
-
-- 
