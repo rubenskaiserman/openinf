@@ -17,17 +17,20 @@ Uma observação válida é que como constantemente estou prototipando e escreve
 - ### Python
 Recomendo o aprendizado de programação com Python caso seus objetivos estejam atrelados à: Ciência de dados, Robotic Process Automation (construção de bots), Aprender a programação para botar a mão na massa rápido, no geral Python é uma línguagem excelente para construção de códigos rápidos para testar ideias. Também permite a flexibilidade de escalar projetos bem rápido. Mas a fim de não defender brutamente a línguagem, devo dizer que é considerada lenta em alguns casos e para projetos que exigem maior otimização (raríssimos casos fora da eletrônica) python pode não ser a melhor escolha.
 
-    - Tutoriais de Python na W3School: [https://www.w3schools.com/python/](https://www.w3schools.com/python/default.asp)
++ Tutoriais de Python na W3School: [https://www.w3schools.com/python/](https://www.w3schools.com/python/default.asp)
+    
 - ### C++
 Recomendo o aprendizado de programação com C++ caso seus objetivos estejam atrelados à: Robótica, programação para eletrônica, aprender os fundamentos mais low level da programação (Manipulação de memória e estruturas de dados do zero), códigos extremamente eficientes e sofisticados.
     
-    - Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [[3*]](#notas)
-    - Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
++ Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [[3*]](#notas)
++ Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+
 - ### JavaScript
 Recomendo JavaScript/TypeScript caso seu objetivo seja desenvolvimento web (Tanto backend quanto frontend). TypeScript é uma linguagem baseada em JavaScript, porém contendo tipagem. Poderá ver em detalhes o que isso significa no link para typescript. No geral ambos os caminhos são válidos, recomendo iniciar com JavaScript e depois transpor seu conhecimento para typescript caso siga por esse caminho.
 
-    - https://www.w3schools.com/js/default.asp
-    - https://www.w3schools.com/typescript/index.php
++ https://www.w3schools.com/js/default.asp
++ https://www.w3schools.com/typescript/index.php
+  
 ## Desenvolvimento web básico
 - Apresentação de conceitos: https://www.w3schools.com/whatis/default.asp [[4*]](#notas)
 - Tutoriais de HTML na W3School: https://www.w3schools.com/html/default.asp
