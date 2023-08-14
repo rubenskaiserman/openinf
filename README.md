@@ -11,15 +11,21 @@ Decidi que ia colocar aqui tudo que eu aprendi no meu curso técnico em informá
 - Introdução ao Linux: https://pt.wikipedia.org/wiki/Linux [[2*]](#notas)
 - Apresentação do mundo Open Source: https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto
 ## Algoritmos e estruturas de dados
+Abaixo são apresentados diferentes línguagens de programação e quais os casos onde eu recoemndo cada uma. Pessoalmente eu aprendi a programar com Python, mas acabei me tornando um desenvolvedor web, por isso hoje uso principalmente javascript e typescript profissionalmente. Contudo, dada a minha vontade de entender programação em um nível mais fundamental, eu aprendi a programar em C++. Embora hoje não use, é um conhecimento que me acompanha e por si só considero extremamente útil. 
+Uma observação válida é que como constantemente estou prototipando e escrevendo scripts de automatização, ainda hoje python é algo que uso constantemente. Minha línguagem favorita bem de longe.
+
 - ### Python
-Recomendo o aprendizado de programação com Python caso seus objetivos estejam atrelados à: Ciência de dados, Robotic Process Automation (construção de bots), Aprender a programação para botar a mão na massa rápido, no geral Python é uma línguagem excelente para construção de códigos rápidos para testar ideias. Também permite a flexibilidade de escalar projetos bem rápido. Mas a fim de não defender brutamente a línguagem, devo dizer que é considerada lenta em alguns casos e para projetos que exigem maior otimização (raríssimos casos fora da eletrônica) python pode não ser a melhor escolha
+Recomendo o aprendizado de programação com Python caso seus objetivos estejam atrelados à: Ciência de dados, Robotic Process Automation (construção de bots), Aprender a programação para botar a mão na massa rápido, no geral Python é uma línguagem excelente para construção de códigos rápidos para testar ideias. Também permite a flexibilidade de escalar projetos bem rápido. Mas a fim de não defender brutamente a línguagem, devo dizer que é considerada lenta em alguns casos e para projetos que exigem maior otimização (raríssimos casos fora da eletrônica) python pode não ser a melhor escolha.
+
     - Tutoriais de Python na W3School: [https://www.w3schools.com/python/](https://www.w3schools.com/python/default.asp)
 - ### C++
 Recomendo o aprendizado de programação com C++ caso seus objetivos estejam atrelados à: Robótica, programação para eletrônica, aprender os fundamentos mais low level da programação (Manipulação de memória e estruturas de dados do zero), códigos extremamente eficientes e sofisticados.
+    
     - Tutoriais de C++ na W3School: https://www.w3schools.com/cpp/default.asp [[3*]](#notas)
     - Argumentos de linha de comando c++: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
 - ### JavaScript
 Recomendo JavaScript/TypeScript caso seu objetivo seja desenvolvimento web (Tanto backend quanto frontend). TypeScript é uma linguagem baseada em JavaScript, porém contendo tipagem. Poderá ver em detalhes o que isso significa no link para typescript. No geral ambos os caminhos são válidos, recomendo iniciar com JavaScript e depois transpor seu conhecimento para typescript caso siga por esse caminho.
+
     - https://www.w3schools.com/js/default.asp
     - https://www.w3schools.com/typescript/index.php
 ## Desenvolvimento web básico
